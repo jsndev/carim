@@ -1,0 +1,2386 @@
+COM+[2:38:27]: ********************************************************************************
+COM+[2:38:27]: Setup started - [DATE:11,20,2006 TIME: 02:38 pm]
+COM+[2:38:27]: ********************************************************************************
+COM+[2:38:27]: Start OC_INIT_COMPONENT Component = com
+COM+[2:38:27]: INF VERSION (com) = 2001,12,4414,42
+COM+[2:38:27]: Instantiating CMasterNT5Wks
+COM+[2:38:27]: Memory usage for setup process...
+COM+[2:38:27]: PeakWorkingSetSize: 40232 Kb, WorkingSetSize: 28220 Kb
+COM+[2:38:27]: QuotaPeakPagedPoolUsage: 61 Kb, QuotaPagedPoolUsage: 57 Kb
+COM+[2:38:27]: PeakPagefileUsage: 33448 Kb, PagefileUsage: 22728 Kb
+COM+[2:38:27]: MTSS: Answer File = 
+COM+[2:38:27]: Calling SetupOpenInfFile.
+COM+[2:38:27]: Unable to open Answer File!!
+COM+[2:38:27]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[2:38:27]: Installed COM product version = 0.0.0.0
+COM+[2:38:27]: SETUP VERSION = 3.0.0.4414
+COM+[2:38:27]:  Installation Mode = FRESH
+COM+[2:38:27]:  Setup Mode = CUSTOM
+COM+[2:38:27]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[2:38:27]: End OC_INIT_COMPONENT Return Value = 0
+COM+[2:38:30]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[2:38:30]: Subcomponent com state: O-,C-,R-
+COM+[2:38:30]: End OC_QUERY_STATE Return Value = 0
+COM+[2:51:11]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[2:51:11]: End OC_QUERY_STATE Return Value = 1
+COM+[2:51:11]: Start OC_QUERY_CHANGE_SEL_STATE Component = com Subcomponent = com
+COM+[2:51:11]: Subcomponent com state: O-,C+,R-
+COM+[2:51:11]: End OC_QUERY_CHANGE_SEL_STATE Return Value = 1
+COM+[2:51:11]: Start OC_CALC_DISK_SPACE Component = com Subcomponent = com
+COM+[2:51:11]: End OC_CALC_DISK_SPACE Return Value = 0
+COM+[1:53:14]: Start OC_QUEUE_FILE_OPS Component = com Subcomponent = 
+COM+[1:53:14]: End OC_QUEUE_FILE_OPS Return Value = 0
+COM+[1:53:14]: Start OC_QUEUE_FILE_OPS Component = com Subcomponent = com
+COM+[1:53:14]: Subcomponent com state: O-,C+,R-
+COM+[1:53:14]: Reading persistent registry values
+COM+[1:53:14]: Finished reading persistent registry values, retval = 0x0
+COM+[1:53:14]: Queuing file ops for component com, Section Name: com_install
+COM+[1:53:14]: The following files will be copied:
+COM+[1:53:14]: C:\WINDOWS\system32\clbcatq.dll
+COM+[1:53:14]: C:\WINDOWS\system32\comsnap.dll
+COM+[1:53:14]: C:\WINDOWS\system32\comuid.dll
+COM+[1:53:14]: C:\WINDOWS\system32\comsvcs.dll
+COM+[1:53:14]: C:\WINDOWS\system32\catsrv.dll
+COM+[1:53:14]: C:\WINDOWS\system32\catsrvut.dll
+COM+[1:53:14]: C:\WINDOWS\system32\clbcatex.dll
+COM+[1:53:14]: C:\WINDOWS\system32\catsrvps.dll
+COM+[1:53:14]: C:\WINDOWS\system32\stclient.dll
+COM+[1:53:14]: C:\WINDOWS\system32\comrepl.dll
+COM+[1:53:14]: C:\WINDOWS\system32\comaddin.dll
+COM+[1:53:14]: C:\WINDOWS\system32\colbact.dll
+COM+[1:53:14]: C:\WINDOWS\system32\Com\comadmin.dll
+COM+[1:53:14]: C:\WINDOWS\system32\mtxdm.dll
+COM+[1:53:14]: C:\WINDOWS\system32\mtxex.dll
+COM+[1:53:14]: C:\WINDOWS\system32\mtxlegih.dll
+COM+[1:53:14]: C:\WINDOWS\system32\dcomcnfg.exe
+COM+[1:53:14]: C:\WINDOWS\system32\Com\comexp.msc
+COM+[1:53:14]: C:\WINDOWS\system32\Com\comrepl.exe
+COM+[1:53:14]: C:\WINDOWS\system32\Com\comempty.dat
+COM+[1:53:14]: C:\WINDOWS\system32\Com\comrereg.exe
+COM+[1:53:14]: C:\WINDOWS\system32\Com\migregdb.exe
+COM+[1:53:14]: C:\WINDOWS\system32\Com\mtsadmin.tlb
+COM+[1:53:14]: The following files will be deleted:
+COM+[1:53:14]: Nuke registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3\Setup.
+COM+[1:53:14]: DRID-39105  -> Path: C:\Documents and Settings\All Users\Start Menu\Programs\
+COM+[1:53:14]: End OC_QUEUE_FILE_OPS Return Value = 0
+COM+[1:53:15]: Start OC_QUERY_STEP_COUNT Component = com Subcomponent = 
+COM+[1:53:15]: End OC_QUERY_STEP_COUNT Return Value = 0
+COM+[1:53:15]: Start OC_QUERY_STEP_COUNT Component = com Subcomponent = com
+COM+[1:53:15]: End OC_QUERY_STEP_COUNT Return Value = 120
+COM+[1:53:15]: Start OC_ABOUT_TO_COMMIT_QUEUE Component = com Subcomponent = 
+COM+[1:53:15]: No PendingFileRenameOperations
+COM+[1:53:15]: End OC_ABOUT_TO_COMMIT_QUEUE Return Value = 0
+COM+[1:53:16]: Start OC_ABOUT_TO_COMMIT_QUEUE Component = com Subcomponent = com
+COM+[1:53:16]: Subcomponent com state: O-,C+,R-
+COM+[1:53:16]: Stopping service ComSysApp...
+COM+[1:53:16]: Stopping service ComLB...
+COM+[1:53:16]: Stopping service SENS...
+COM+[1:53:16]: Stopping service EventSystem...
+COM+[1:53:16]: Stopping service SENS...
+COM+[1:53:16]: Stopping service fax...
+COM+[1:53:16]: Stopping service w3svc...
+COM+[1:53:16]: Stopping service smtpsvc...
+COM+[1:53:16]: Stopping service iisadmin...
+COM+[1:53:16]: End OC_ABOUT_TO_COMMIT_QUEUE Return Value = 0
+COM+[1:54:38]: Start OC_COMPLETE_INSTALLATION Component = com Subcomponent = 
+COM+[1:54:38]: No PendingFileRenameOperations
+COM+[1:54:38]: End OC_COMPLETE_INSTALLATION Return Value = 0
+COM+[1:54:51]: Start OC_COMPLETE_INSTALLATION Component = com Subcomponent = com
+COM+[1:54:51]: Subcomponent com state: O-,C+,R+
+COM+[1:54:51]: Queuing reg ops for component com, Section Name: com_install
+COM+[1:54:51]: Registering TypeLib: C:\WINDOWS\system32\Com\mtsadmin.tlb
+COM+[1:54:51]: SetFileAttributes returned 0x80070003 for menu item C:\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Component Services Explorer.lnk
+COM+[1:54:51]: Creating menu item for Component Services.
+COM+[1:54:51]: Nuke registry key: HKEY_CLASSES_ROOT\AppID\{182C40F0-32E4-11D0-818B-00A0C9231C29}.
+COM+[1:54:51]: Schema version is 0; schema is incompatible
+COM+[1:54:51]: Running command: C:\WINDOWS\system32\com\migregdb.exe 0 "C:\WINDOWS\INF\COM3AE.tmp"
+COM+[1:54:51]: MigRegDB sucessfully migrated the incompatible schema
+COM+[1:54:51]: Nuke registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3\Setup.
+COM+[1:54:51]: Registering C:\WINDOWS\system32\clbcatq.dll.
+COM+[1:54:51]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\clbcatq.dll
+COM+[1:54:51]: After call to LoadLibrary - Module: C:\WINDOWS\system32\clbcatq.dll
+COM+[1:54:51]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\CLBCatQ.DLL
+COM+[1:54:51]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\CLBCatQ.DLL
+COM+[1:54:52]: Registering C:\WINDOWS\system32\comsnap.dll.
+COM+[1:54:52]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\comsnap.dll
+COM+[1:54:52]: After call to LoadLibrary - Module: C:\WINDOWS\system32\comsnap.dll
+COM+[1:54:52]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\comsnap.dll
+COM+[1:54:52]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\comsnap.dll
+COM+[1:54:53]: Registering C:\WINDOWS\system32\comuid.dll.
+COM+[1:54:53]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\comuid.dll
+COM+[1:54:53]: After call to LoadLibrary - Module: C:\WINDOWS\system32\comuid.dll
+COM+[1:54:53]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\comuid.dll
+COM+[1:54:53]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\comuid.dll
+COM+[1:54:53]: Registering C:\WINDOWS\system32\comsvcs.dll.
+COM+[1:54:53]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\comsvcs.dll
+COM+[1:54:53]: After call to LoadLibrary - Module: C:\WINDOWS\system32\comsvcs.dll
+COM+[1:54:53]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\comsvcs.dll
+COM+[1:54:53]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\comsvcs.dll
+COM+[1:54:54]: Registering C:\WINDOWS\system32\catsrv.dll.
+COM+[1:54:54]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\catsrv.dll
+COM+[1:54:54]: After call to LoadLibrary - Module: C:\WINDOWS\system32\catsrv.dll
+COM+[1:54:54]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\catsrv.dll
+COM+[1:54:54]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\catsrv.dll
+COM+[1:54:54]: Registering C:\WINDOWS\system32\catsrvut.dll.
+COM+[1:54:54]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\catsrvut.dll
+COM+[1:54:54]: After call to LoadLibrary - Module: C:\WINDOWS\system32\catsrvut.dll
+COM+[1:54:54]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\catsrvut.dll
+COM+[1:54:54]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\catsrvut.dll
+COM+[1:54:55]: Registering C:\WINDOWS\system32\clbcatex.dll.
+COM+[1:54:55]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\clbcatex.dll
+COM+[1:54:55]: After call to LoadLibrary - Module: C:\WINDOWS\system32\clbcatex.dll
+COM+[1:54:55]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\clbcatex.dll
+COM+[1:54:55]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\clbcatex.dll
+COM+[1:54:55]: Registering C:\WINDOWS\system32\catsrvps.dll.
+COM+[1:54:55]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\catsrvps.dll
+COM+[1:54:55]: After call to LoadLibrary - Module: C:\WINDOWS\system32\catsrvps.dll
+COM+[1:54:55]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\catsrvps.dll
+COM+[1:54:55]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\catsrvps.dll
+COM+[1:54:55]: Registering C:\WINDOWS\system32\stclient.dll.
+COM+[1:54:55]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\stclient.dll
+COM+[1:54:55]: After call to LoadLibrary - Module: C:\WINDOWS\system32\stclient.dll
+COM+[1:54:55]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\stclient.dll
+COM+[1:54:55]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\stclient.dll
+COM+[1:54:56]: Registering C:\WINDOWS\system32\comrepl.dll.
+COM+[1:54:56]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\comrepl.dll
+COM+[1:54:56]: After call to LoadLibrary - Module: C:\WINDOWS\system32\comrepl.dll
+COM+[1:54:56]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\comrepl.dll
+COM+[1:54:56]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\comrepl.dll
+COM+[1:54:56]: Registering C:\WINDOWS\system32\comaddin.dll.
+COM+[1:54:56]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\comaddin.dll
+COM+[1:54:56]: After call to LoadLibrary - Module: C:\WINDOWS\system32\comaddin.dll
+COM+[1:54:56]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\comaddin.dll
+COM+[1:54:56]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\comaddin.dll
+COM+[1:54:56]: Registering C:\WINDOWS\system32\colbact.dll.
+COM+[1:54:56]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\colbact.dll
+COM+[1:54:56]: After call to LoadLibrary - Module: C:\WINDOWS\system32\colbact.dll
+COM+[1:54:56]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\colbact.DLL
+COM+[1:54:56]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\colbact.DLL
+COM+[1:54:57]: Registering C:\WINDOWS\system32\Com\comadmin.dll.
+COM+[1:54:57]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\Com\comadmin.dll
+COM+[1:54:57]: After call to LoadLibrary - Module: C:\WINDOWS\system32\Com\comadmin.dll
+COM+[1:54:57]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\Com\comadmin.dll
+COM+[1:54:57]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\Com\comadmin.dll
+COM+[1:54:57]: Registering C:\WINDOWS\system32\es.dll.
+COM+[1:54:57]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\es.dll
+COM+[1:54:57]: After call to LoadLibrary - Module: C:\WINDOWS\system32\es.dll
+COM+[1:54:57]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\es.dll
+COM+[1:54:58]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\es.dll
+COM+[1:54:58]: Registering C:\WINDOWS\system32\txflog.dll.
+COM+[1:54:58]: Before call to LoadLibrary - Module: C:\WINDOWS\system32\txflog.dll
+COM+[1:54:58]: After call to LoadLibrary - Module: C:\WINDOWS\system32\txflog.dll
+COM+[1:54:58]: Before call to DllRegisterServer - Module: C:\WINDOWS\system32\txflog.dll
+COM+[1:54:58]: After call to DllRegisterServer - Module: C:\WINDOWS\system32\txflog.dll
+COM+[1:54:58]: Before RegisterComEventClasses
+COM+[1:54:58]: AFter RegisterComEventClasses
+COM+[1:54:58]: Memory usage for setup process...
+COM+[1:54:58]: PeakWorkingSetSize: 76572 Kb, WorkingSetSize: 74092 Kb
+COM+[1:54:58]: QuotaPeakPagedPoolUsage: 113 Kb, QuotaPagedPoolUsage: 108 Kb
+COM+[1:54:58]: PeakPagefileUsage: 52632 Kb, PagefileUsage: 43172 Kb
+COM+[1:54:58]: Obtained dispenser and secadmin
+COM+[1:54:58]: Deleting legacy COM+ roles
+COM+[1:54:58]: Writing existing users in roles to inf file
+COM+[1:54:58]: Creating COM+ objects
+COM+[1:54:58]: Processing TID_COMPUTERLIST table
+COM+[1:54:58]: Processing TID_LOCALCOMPUTER table
+COM+[1:54:58]: Creating COM+ partitions
+COM+[1:54:58]: Processing TID_APPLICATIONPARTITION table
+COM+[1:54:58]: Creating COM+ applications
+COM+[1:54:58]: Processing TID_APPLICATION table
+COM+[1:54:58]: Processing tidCOMSERVICES_SERVICES table
+COM+[1:54:59]: Creating COM+ components
+COM+[1:54:59]: Processing tidCOMSERVICES_CLASSES_INTERNAL table
+COM+[1:54:59]: Setting COM+ component class descriptions
+COM+[1:54:59]: Creating COM+ custom activators
+COM+[1:54:59]: Processing TID_CUSTOMACTIVATOR table
+COM+[1:54:59]: Creating COM+ System Application Service
+COM+[1:55:0]: Deleting legacy COM+ roles
+COM+[1:55:0]: Creating COM+ roles
+COM+[1:55:0]: Processing tidCOMSERVICES_ROLEDEFINITION table
+COM+[1:55:0]: Processing tidCOMSERVICES_ROLECONFIG table
+COM+[1:55:0]: Processing tidCOMSERVICES_ROLESET table for partitions
+COM+[1:55:0]: Processing tidCOMSERVICES_ROLESET table
+COM+[1:55:0]: Creating COM+ interfaces
+COM+[1:55:0]: Processing tidCOMSERVICES_CLASSINTERFACE table
+COM+[1:55:0]: Creating COM+ methods
+COM+[1:55:0]: Processing tidCOMSERVICES_CLASSITFMETHOD table
+COM+[1:55:0]: Processing tidCOMSERVICES_CLASSITFDISPID table
+COM+[1:55:0]: Adding COM+ roles to applications
+COM+[1:55:1]: Updating COM+ roles
+COM+[1:55:9]: Setting COM+ System Application as system
+COM+[1:55:9]: COM+ Successfully Activated
+COM+[1:55:9]: Memory usage for setup process...
+COM+[1:55:9]: PeakWorkingSetSize: 76572 Kb, WorkingSetSize: 74236 Kb
+COM+[1:55:9]: QuotaPeakPagedPoolUsage: 113 Kb, QuotaPagedPoolUsage: 108 Kb
+COM+[1:55:9]: PeakPagefileUsage: 52632 Kb, PagefileUsage: 42820 Kb
+COM+[1:55:9]: Backup RegDB file to 'C:\WINDOWS\system32\emptyregdb.dat'.
+COM+[1:55:9]: Upgrading CRM:
+COM+[1:55:9]: Creating CRM log directory 'C:\WINDOWS\Registration\CRMLog'
+COM+[1:55:9]: Upgrading CRM: Done
+COM+[1:55:9]: Before Event System Store Migration
+COM+[1:55:9]: MigLCE sucessfully migrated the Event System store.
+COM+[1:55:9]: After Event System Store Migration
+COM+[1:55:25]: Warning: error 0x8007054b in IsWin2001PrimaryDomainController
+COM+[1:55:25]: Machine is not a PDC
+COM+[1:55:25]: ProcessDSSchema succeeded: 0x0
+COM+[1:55:25]: Writing persistent registry values
+COM+[1:55:25]: Finished writing persistent registry values, retval = 0x0
+COM+[1:55:25]: End OC_COMPLETE_INSTALLATION Return Value = 0
+COM+[1:55:25]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[1:55:25]: Subcomponent com state: O-,C+,R+
+COM+[1:55:25]: End OC_QUERY_STATE Return Value = 1
+COM+[1:56:5]: Start OC_CLEANUP Component = com
+COM+[1:56:5]: Stopping service COM+ System Application...
+COM+[1:56:5]: Memory usage for setup process...
+COM+[1:56:5]: PeakWorkingSetSize: 87004 Kb, WorkingSetSize: 70380 Kb
+COM+[1:56:5]: QuotaPeakPagedPoolUsage: 114 Kb, QuotaPagedPoolUsage: 101 Kb
+COM+[1:56:5]: PeakPagefileUsage: 55340 Kb, PagefileUsage: 43672 Kb
+COM+[1:56:5]: End OC_CLEANUP Return Value = 0
+COM+[2:4:37]: ********************************************************************************
+COM+[2:4:37]: Setup finished - [DATE:11,20,2006 TIME: 02:04 pm]
+COM+[2:4:37]: ********************************************************************************
+COM+[3:18:39]: ********************************************************************************
+COM+[3:18:39]: Setup started - [DATE:11,20,2006 TIME: 03:18 pm]
+COM+[3:18:39]: ********************************************************************************
+COM+[3:18:39]: Start OC_INIT_COMPONENT Component = com
+COM+[3:18:39]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:18:39]: Instantiating CMasterNT5Wks
+COM+[3:18:39]: Memory usage for setup process...
+COM+[3:18:39]: PeakWorkingSetSize: 19284 Kb, WorkingSetSize: 11384 Kb
+COM+[3:18:39]: QuotaPeakPagedPoolUsage: 53 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:18:39]: PeakPagefileUsage: 11892 Kb, PagefileUsage: 9864 Kb
+COM+[3:18:39]: MTSS: Answer File = 
+COM+[3:18:39]: Calling SetupOpenInfFile.
+COM+[3:18:39]: Unable to open Answer File!!
+COM+[3:18:39]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:18:39]: Installed COM product version = 3.0.0.4414
+COM+[3:18:39]: SETUP VERSION = 3.0.0.4414
+COM+[3:18:39]:  Installation Mode = MAINTENANCE
+COM+[3:18:39]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:18:39]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:18:39]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:18:44]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:18:44]: Subcomponent com state: O-,C-,R+
+COM+[3:18:44]: End OC_QUERY_STATE Return Value = 0
+COM+[3:18:46]: Start OC_CLEANUP Component = com
+COM+[3:18:46]: Stopping service COM+ System Application...
+COM+[3:18:46]: Memory usage for setup process...
+COM+[3:18:46]: PeakWorkingSetSize: 34584 Kb, WorkingSetSize: 20092 Kb
+COM+[3:18:46]: QuotaPeakPagedPoolUsage: 78 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:18:46]: PeakPagefileUsage: 17532 Kb, PagefileUsage: 11124 Kb
+COM+[3:18:46]: End OC_CLEANUP Return Value = 0
+COM+[3:18:46]: ********************************************************************************
+COM+[3:18:46]: Setup finished - [DATE:11,20,2006 TIME: 03:18 pm]
+COM+[3:18:46]: ********************************************************************************
+COM+[3:19:5]: ********************************************************************************
+COM+[3:19:5]: Setup started - [DATE:11,20,2006 TIME: 03:19 pm]
+COM+[3:19:5]: ********************************************************************************
+COM+[3:19:5]: Start OC_INIT_COMPONENT Component = com
+COM+[3:19:5]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:19:5]: Instantiating CMasterNT5Wks
+COM+[3:19:5]: Memory usage for setup process...
+COM+[3:19:5]: PeakWorkingSetSize: 10084 Kb, WorkingSetSize: 10084 Kb
+COM+[3:19:5]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:19:5]: PeakPagefileUsage: 9532 Kb, PagefileUsage: 9312 Kb
+COM+[3:19:5]: MTSS: Answer File = 
+COM+[3:19:5]: Calling SetupOpenInfFile.
+COM+[3:19:5]: Unable to open Answer File!!
+COM+[3:19:5]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:19:5]: Installed COM product version = 3.0.0.4414
+COM+[3:19:5]: SETUP VERSION = 3.0.0.4414
+COM+[3:19:5]:  Installation Mode = MAINTENANCE
+COM+[3:19:5]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:19:5]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:19:5]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:19:5]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:19:5]: Subcomponent com state: O-,C-,R+
+COM+[3:19:5]: End OC_QUERY_STATE Return Value = 0
+COM+[3:19:5]: Start OC_CLEANUP Component = com
+COM+[3:19:5]: Stopping service COM+ System Application...
+COM+[3:19:5]: Memory usage for setup process...
+COM+[3:19:5]: PeakWorkingSetSize: 24808 Kb, WorkingSetSize: 20068 Kb
+COM+[3:19:5]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:19:5]: PeakPagefileUsage: 11608 Kb, PagefileUsage: 11604 Kb
+COM+[3:19:5]: End OC_CLEANUP Return Value = 0
+COM+[3:19:6]: ********************************************************************************
+COM+[3:19:6]: Setup finished - [DATE:11,20,2006 TIME: 03:19 pm]
+COM+[3:19:6]: ********************************************************************************
+COM+[3:45:34]: ********************************************************************************
+COM+[3:45:34]: Setup started - [DATE:11,20,2006 TIME: 03:45 pm]
+COM+[3:45:34]: ********************************************************************************
+COM+[3:45:34]: Start OC_INIT_COMPONENT Component = com
+COM+[3:45:34]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:45:34]: Instantiating CMasterNT5Wks
+COM+[3:45:34]: Memory usage for setup process...
+COM+[3:45:34]: PeakWorkingSetSize: 9992 Kb, WorkingSetSize: 9992 Kb
+COM+[3:45:34]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:45:34]: PeakPagefileUsage: 9036 Kb, PagefileUsage: 8764 Kb
+COM+[3:45:34]: MTSS: Answer File = 
+COM+[3:45:34]: Calling SetupOpenInfFile.
+COM+[3:45:34]: Unable to open Answer File!!
+COM+[3:45:34]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:45:34]: Installed COM product version = 3.0.0.4414
+COM+[3:45:34]: SETUP VERSION = 3.0.0.4414
+COM+[3:45:34]:  Installation Mode = MAINTENANCE
+COM+[3:45:34]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:45:34]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:45:34]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:45:35]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:45:35]: Subcomponent com state: O-,C-,R+
+COM+[3:45:35]: End OC_QUERY_STATE Return Value = 0
+COM+[3:45:35]: Start OC_CLEANUP Component = com
+COM+[3:45:35]: Stopping service COM+ System Application...
+COM+[3:45:35]: Memory usage for setup process...
+COM+[3:45:35]: PeakWorkingSetSize: 24704 Kb, WorkingSetSize: 19932 Kb
+COM+[3:45:35]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:45:35]: PeakPagefileUsage: 11044 Kb, PagefileUsage: 11040 Kb
+COM+[3:45:35]: End OC_CLEANUP Return Value = 0
+COM+[3:45:36]: ********************************************************************************
+COM+[3:45:36]: Setup finished - [DATE:11,20,2006 TIME: 03:45 pm]
+COM+[3:45:36]: ********************************************************************************
+COM+[3:45:54]: ********************************************************************************
+COM+[3:45:54]: Setup started - [DATE:11,20,2006 TIME: 03:45 pm]
+COM+[3:45:54]: ********************************************************************************
+COM+[3:45:54]: Start OC_INIT_COMPONENT Component = com
+COM+[3:45:54]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:45:54]: Instantiating CMasterNT5Wks
+COM+[3:45:54]: Memory usage for setup process...
+COM+[3:45:54]: PeakWorkingSetSize: 10000 Kb, WorkingSetSize: 10000 Kb
+COM+[3:45:54]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:45:54]: PeakPagefileUsage: 9104 Kb, PagefileUsage: 8776 Kb
+COM+[3:45:54]: MTSS: Answer File = 
+COM+[3:45:54]: Calling SetupOpenInfFile.
+COM+[3:45:54]: Unable to open Answer File!!
+COM+[3:45:54]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:45:54]: Installed COM product version = 3.0.0.4414
+COM+[3:45:54]: SETUP VERSION = 3.0.0.4414
+COM+[3:45:54]:  Installation Mode = MAINTENANCE
+COM+[3:45:54]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:45:54]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:45:54]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:45:55]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:45:55]: Subcomponent com state: O-,C-,R+
+COM+[3:45:55]: End OC_QUERY_STATE Return Value = 0
+COM+[3:45:55]: Start OC_CLEANUP Component = com
+COM+[3:45:55]: Stopping service COM+ System Application...
+COM+[3:45:55]: Memory usage for setup process...
+COM+[3:45:55]: PeakWorkingSetSize: 24704 Kb, WorkingSetSize: 19932 Kb
+COM+[3:45:55]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:45:55]: PeakPagefileUsage: 11036 Kb, PagefileUsage: 11032 Kb
+COM+[3:45:55]: End OC_CLEANUP Return Value = 0
+COM+[3:45:55]: ********************************************************************************
+COM+[3:45:55]: Setup finished - [DATE:11,20,2006 TIME: 03:45 pm]
+COM+[3:45:55]: ********************************************************************************
+COM+[3:46:14]: ********************************************************************************
+COM+[3:46:14]: Setup started - [DATE:11,20,2006 TIME: 03:46 pm]
+COM+[3:46:14]: ********************************************************************************
+COM+[3:46:14]: Start OC_INIT_COMPONENT Component = com
+COM+[3:46:14]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:46:14]: Instantiating CMasterNT5Wks
+COM+[3:46:14]: Memory usage for setup process...
+COM+[3:46:14]: PeakWorkingSetSize: 10048 Kb, WorkingSetSize: 10048 Kb
+COM+[3:46:14]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:46:14]: PeakPagefileUsage: 9064 Kb, PagefileUsage: 8804 Kb
+COM+[3:46:14]: MTSS: Answer File = 
+COM+[3:46:14]: Calling SetupOpenInfFile.
+COM+[3:46:14]: Unable to open Answer File!!
+COM+[3:46:14]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:46:14]: Installed COM product version = 3.0.0.4414
+COM+[3:46:14]: SETUP VERSION = 3.0.0.4414
+COM+[3:46:14]:  Installation Mode = MAINTENANCE
+COM+[3:46:14]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:46:14]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:46:14]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:46:14]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:46:14]: Subcomponent com state: O-,C-,R+
+COM+[3:46:14]: End OC_QUERY_STATE Return Value = 0
+COM+[3:46:15]: Start OC_CLEANUP Component = com
+COM+[3:46:15]: Stopping service COM+ System Application...
+COM+[3:46:15]: Memory usage for setup process...
+COM+[3:46:15]: PeakWorkingSetSize: 24732 Kb, WorkingSetSize: 19956 Kb
+COM+[3:46:15]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:46:15]: PeakPagefileUsage: 11052 Kb, PagefileUsage: 11048 Kb
+COM+[3:46:15]: End OC_CLEANUP Return Value = 0
+COM+[3:46:15]: ********************************************************************************
+COM+[3:46:15]: Setup finished - [DATE:11,20,2006 TIME: 03:46 pm]
+COM+[3:46:15]: ********************************************************************************
+COM+[3:46:33]: ********************************************************************************
+COM+[3:46:33]: Setup started - [DATE:11,20,2006 TIME: 03:46 pm]
+COM+[3:46:33]: ********************************************************************************
+COM+[3:46:33]: Start OC_INIT_COMPONENT Component = com
+COM+[3:46:33]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:46:33]: Instantiating CMasterNT5Wks
+COM+[3:46:33]: Memory usage for setup process...
+COM+[3:46:33]: PeakWorkingSetSize: 10064 Kb, WorkingSetSize: 10064 Kb
+COM+[3:46:33]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:46:33]: PeakPagefileUsage: 9040 Kb, PagefileUsage: 8812 Kb
+COM+[3:46:33]: MTSS: Answer File = 
+COM+[3:46:33]: Calling SetupOpenInfFile.
+COM+[3:46:33]: Unable to open Answer File!!
+COM+[3:46:33]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:46:33]: Installed COM product version = 3.0.0.4414
+COM+[3:46:33]: SETUP VERSION = 3.0.0.4414
+COM+[3:46:33]:  Installation Mode = MAINTENANCE
+COM+[3:46:33]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:46:33]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:46:33]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:46:34]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:46:34]: Subcomponent com state: O-,C-,R+
+COM+[3:46:34]: End OC_QUERY_STATE Return Value = 0
+COM+[3:46:34]: Start OC_CLEANUP Component = com
+COM+[3:46:34]: Stopping service COM+ System Application...
+COM+[3:46:34]: Memory usage for setup process...
+COM+[3:46:34]: PeakWorkingSetSize: 24736 Kb, WorkingSetSize: 19964 Kb
+COM+[3:46:34]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:46:34]: PeakPagefileUsage: 11056 Kb, PagefileUsage: 11052 Kb
+COM+[3:46:34]: End OC_CLEANUP Return Value = 0
+COM+[3:46:34]: ********************************************************************************
+COM+[3:46:34]: Setup finished - [DATE:11,20,2006 TIME: 03:46 pm]
+COM+[3:46:34]: ********************************************************************************
+COM+[3:46:53]: ********************************************************************************
+COM+[3:46:53]: Setup started - [DATE:11,20,2006 TIME: 03:46 pm]
+COM+[3:46:53]: ********************************************************************************
+COM+[3:46:53]: Start OC_INIT_COMPONENT Component = com
+COM+[3:46:53]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:46:53]: Instantiating CMasterNT5Wks
+COM+[3:46:53]: Memory usage for setup process...
+COM+[3:46:53]: PeakWorkingSetSize: 10040 Kb, WorkingSetSize: 10040 Kb
+COM+[3:46:53]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:46:53]: PeakPagefileUsage: 9040 Kb, PagefileUsage: 8812 Kb
+COM+[3:46:53]: MTSS: Answer File = 
+COM+[3:46:53]: Calling SetupOpenInfFile.
+COM+[3:46:53]: Unable to open Answer File!!
+COM+[3:46:53]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:46:53]: Installed COM product version = 3.0.0.4414
+COM+[3:46:53]: SETUP VERSION = 3.0.0.4414
+COM+[3:46:53]:  Installation Mode = MAINTENANCE
+COM+[3:46:53]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:46:53]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:46:53]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:46:54]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:46:54]: Subcomponent com state: O-,C-,R+
+COM+[3:46:54]: End OC_QUERY_STATE Return Value = 0
+COM+[3:46:54]: Start OC_CLEANUP Component = com
+COM+[3:46:54]: Stopping service COM+ System Application...
+COM+[3:46:54]: Memory usage for setup process...
+COM+[3:46:54]: PeakWorkingSetSize: 24708 Kb, WorkingSetSize: 19936 Kb
+COM+[3:46:54]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:46:54]: PeakPagefileUsage: 11052 Kb, PagefileUsage: 11048 Kb
+COM+[3:46:54]: End OC_CLEANUP Return Value = 0
+COM+[3:46:54]: ********************************************************************************
+COM+[3:46:54]: Setup finished - [DATE:11,20,2006 TIME: 03:46 pm]
+COM+[3:46:54]: ********************************************************************************
+COM+[3:47:13]: ********************************************************************************
+COM+[3:47:13]: Setup started - [DATE:11,20,2006 TIME: 03:47 pm]
+COM+[3:47:13]: ********************************************************************************
+COM+[3:47:13]: Start OC_INIT_COMPONENT Component = com
+COM+[3:47:13]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:47:13]: Instantiating CMasterNT5Wks
+COM+[3:47:13]: Memory usage for setup process...
+COM+[3:47:13]: PeakWorkingSetSize: 10040 Kb, WorkingSetSize: 10040 Kb
+COM+[3:47:13]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:47:13]: PeakPagefileUsage: 9032 Kb, PagefileUsage: 8812 Kb
+COM+[3:47:13]: MTSS: Answer File = 
+COM+[3:47:13]: Calling SetupOpenInfFile.
+COM+[3:47:13]: Unable to open Answer File!!
+COM+[3:47:13]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:47:13]: Installed COM product version = 3.0.0.4414
+COM+[3:47:13]: SETUP VERSION = 3.0.0.4414
+COM+[3:47:13]:  Installation Mode = MAINTENANCE
+COM+[3:47:13]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:47:13]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:47:13]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:47:13]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:47:13]: Subcomponent com state: O-,C-,R+
+COM+[3:47:13]: End OC_QUERY_STATE Return Value = 0
+COM+[3:47:13]: Start OC_CLEANUP Component = com
+COM+[3:47:13]: Stopping service COM+ System Application...
+COM+[3:47:13]: Memory usage for setup process...
+COM+[3:47:13]: PeakWorkingSetSize: 24736 Kb, WorkingSetSize: 19964 Kb
+COM+[3:47:13]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:47:13]: PeakPagefileUsage: 11080 Kb, PagefileUsage: 11076 Kb
+COM+[3:47:13]: End OC_CLEANUP Return Value = 0
+COM+[3:47:14]: ********************************************************************************
+COM+[3:47:14]: Setup finished - [DATE:11,20,2006 TIME: 03:47 pm]
+COM+[3:47:14]: ********************************************************************************
+COM+[3:47:33]: ********************************************************************************
+COM+[3:47:33]: Setup started - [DATE:11,20,2006 TIME: 03:47 pm]
+COM+[3:47:33]: ********************************************************************************
+COM+[3:47:33]: Start OC_INIT_COMPONENT Component = com
+COM+[3:47:33]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:47:33]: Instantiating CMasterNT5Wks
+COM+[3:47:33]: Memory usage for setup process...
+COM+[3:47:33]: PeakWorkingSetSize: 10100 Kb, WorkingSetSize: 10100 Kb
+COM+[3:47:33]: QuotaPeakPagedPoolUsage: 48 Kb, QuotaPagedPoolUsage: 48 Kb
+COM+[3:47:33]: PeakPagefileUsage: 9108 Kb, PagefileUsage: 8844 Kb
+COM+[3:47:33]: MTSS: Answer File = 
+COM+[3:47:33]: Calling SetupOpenInfFile.
+COM+[3:47:33]: Unable to open Answer File!!
+COM+[3:47:33]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:47:33]: Installed COM product version = 3.0.0.4414
+COM+[3:47:33]: SETUP VERSION = 3.0.0.4414
+COM+[3:47:33]:  Installation Mode = MAINTENANCE
+COM+[3:47:33]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:47:33]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:47:33]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:47:33]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:47:33]: Subcomponent com state: O-,C-,R+
+COM+[3:47:33]: End OC_QUERY_STATE Return Value = 0
+COM+[3:47:34]: Start OC_CLEANUP Component = com
+COM+[3:47:34]: Stopping service COM+ System Application...
+COM+[3:47:34]: Memory usage for setup process...
+COM+[3:47:34]: PeakWorkingSetSize: 24780 Kb, WorkingSetSize: 20008 Kb
+COM+[3:47:34]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:47:34]: PeakPagefileUsage: 11068 Kb, PagefileUsage: 11064 Kb
+COM+[3:47:34]: End OC_CLEANUP Return Value = 0
+COM+[3:47:34]: ********************************************************************************
+COM+[3:47:34]: Setup finished - [DATE:11,20,2006 TIME: 03:47 pm]
+COM+[3:47:34]: ********************************************************************************
+COM+[3:47:53]: ********************************************************************************
+COM+[3:47:53]: Setup started - [DATE:11,20,2006 TIME: 03:47 pm]
+COM+[3:47:53]: ********************************************************************************
+COM+[3:47:53]: Start OC_INIT_COMPONENT Component = com
+COM+[3:47:53]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:47:53]: Instantiating CMasterNT5Wks
+COM+[3:47:53]: Memory usage for setup process...
+COM+[3:47:53]: PeakWorkingSetSize: 10148 Kb, WorkingSetSize: 10148 Kb
+COM+[3:47:53]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:47:53]: PeakPagefileUsage: 9680 Kb, PagefileUsage: 9392 Kb
+COM+[3:47:53]: MTSS: Answer File = 
+COM+[3:47:53]: Calling SetupOpenInfFile.
+COM+[3:47:53]: Unable to open Answer File!!
+COM+[3:47:53]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:47:53]: Installed COM product version = 3.0.0.4414
+COM+[3:47:53]: SETUP VERSION = 3.0.0.4414
+COM+[3:47:53]:  Installation Mode = MAINTENANCE
+COM+[3:47:53]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:47:53]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:47:53]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:47:53]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:47:53]: Subcomponent com state: O-,C-,R+
+COM+[3:47:53]: End OC_QUERY_STATE Return Value = 0
+COM+[3:47:53]: Start OC_CLEANUP Component = com
+COM+[3:47:53]: Stopping service COM+ System Application...
+COM+[3:47:53]: Memory usage for setup process...
+COM+[3:47:53]: PeakWorkingSetSize: 24836 Kb, WorkingSetSize: 20096 Kb
+COM+[3:47:53]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:47:53]: PeakPagefileUsage: 11604 Kb, PagefileUsage: 11600 Kb
+COM+[3:47:53]: End OC_CLEANUP Return Value = 0
+COM+[3:47:53]: ********************************************************************************
+COM+[3:47:53]: Setup finished - [DATE:11,20,2006 TIME: 03:47 pm]
+COM+[3:47:53]: ********************************************************************************
+COM+[3:48:12]: ********************************************************************************
+COM+[3:48:12]: Setup started - [DATE:11,20,2006 TIME: 03:48 pm]
+COM+[3:48:12]: ********************************************************************************
+COM+[3:48:12]: Start OC_INIT_COMPONENT Component = com
+COM+[3:48:12]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:48:12]: Instantiating CMasterNT5Wks
+COM+[3:48:12]: Memory usage for setup process...
+COM+[3:48:12]: PeakWorkingSetSize: 10128 Kb, WorkingSetSize: 10128 Kb
+COM+[3:48:12]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:48:12]: PeakPagefileUsage: 9604 Kb, PagefileUsage: 9340 Kb
+COM+[3:48:12]: MTSS: Answer File = 
+COM+[3:48:12]: Calling SetupOpenInfFile.
+COM+[3:48:12]: Unable to open Answer File!!
+COM+[3:48:12]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:48:12]: Installed COM product version = 3.0.0.4414
+COM+[3:48:12]: SETUP VERSION = 3.0.0.4414
+COM+[3:48:12]:  Installation Mode = MAINTENANCE
+COM+[3:48:12]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:48:12]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:48:12]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:48:13]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:48:13]: Subcomponent com state: O-,C-,R+
+COM+[3:48:13]: End OC_QUERY_STATE Return Value = 0
+COM+[3:48:13]: Start OC_CLEANUP Component = com
+COM+[3:48:13]: Stopping service COM+ System Application...
+COM+[3:48:13]: Memory usage for setup process...
+COM+[3:48:13]: PeakWorkingSetSize: 24848 Kb, WorkingSetSize: 19944 Kb
+COM+[3:48:13]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:48:13]: PeakPagefileUsage: 11572 Kb, PagefileUsage: 11448 Kb
+COM+[3:48:13]: End OC_CLEANUP Return Value = 0
+COM+[3:48:13]: ********************************************************************************
+COM+[3:48:13]: Setup finished - [DATE:11,20,2006 TIME: 03:48 pm]
+COM+[3:48:13]: ********************************************************************************
+COM+[3:48:36]: ********************************************************************************
+COM+[3:48:36]: Setup started - [DATE:11,20,2006 TIME: 03:48 pm]
+COM+[3:48:36]: ********************************************************************************
+COM+[3:48:36]: Start OC_INIT_COMPONENT Component = com
+COM+[3:48:36]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:48:36]: Instantiating CMasterNT5Wks
+COM+[3:48:36]: Memory usage for setup process...
+COM+[3:48:36]: PeakWorkingSetSize: 13496 Kb, WorkingSetSize: 10472 Kb
+COM+[3:48:36]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:48:36]: PeakPagefileUsage: 9916 Kb, PagefileUsage: 9612 Kb
+COM+[3:48:36]: MTSS: Answer File = 
+COM+[3:48:36]: Calling SetupOpenInfFile.
+COM+[3:48:36]: Unable to open Answer File!!
+COM+[3:48:36]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:48:36]: Installed COM product version = 3.0.0.4414
+COM+[3:48:36]: SETUP VERSION = 3.0.0.4414
+COM+[3:48:36]:  Installation Mode = MAINTENANCE
+COM+[3:48:36]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:48:36]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:48:36]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:48:36]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:48:36]: Subcomponent com state: O-,C-,R+
+COM+[3:48:36]: End OC_QUERY_STATE Return Value = 0
+COM+[3:48:36]: Start OC_CLEANUP Component = com
+COM+[3:48:36]: Stopping service COM+ System Application...
+COM+[3:48:36]: Memory usage for setup process...
+COM+[3:48:36]: PeakWorkingSetSize: 25012 Kb, WorkingSetSize: 20260 Kb
+COM+[3:48:36]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:48:36]: PeakPagefileUsage: 11708 Kb, PagefileUsage: 11704 Kb
+COM+[3:48:36]: End OC_CLEANUP Return Value = 0
+COM+[3:48:36]: ********************************************************************************
+COM+[3:48:36]: Setup finished - [DATE:11,20,2006 TIME: 03:48 pm]
+COM+[3:48:36]: ********************************************************************************
+COM+[3:48:56]: ********************************************************************************
+COM+[3:48:56]: Setup started - [DATE:11,20,2006 TIME: 03:48 pm]
+COM+[3:48:56]: ********************************************************************************
+COM+[3:48:56]: Start OC_INIT_COMPONENT Component = com
+COM+[3:48:56]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:48:56]: Instantiating CMasterNT5Wks
+COM+[3:48:56]: Memory usage for setup process...
+COM+[3:48:56]: PeakWorkingSetSize: 10356 Kb, WorkingSetSize: 10356 Kb
+COM+[3:48:56]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:48:56]: PeakPagefileUsage: 9856 Kb, PagefileUsage: 9544 Kb
+COM+[3:48:56]: MTSS: Answer File = 
+COM+[3:48:56]: Calling SetupOpenInfFile.
+COM+[3:48:56]: Unable to open Answer File!!
+COM+[3:48:56]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:48:56]: Installed COM product version = 3.0.0.4414
+COM+[3:48:56]: SETUP VERSION = 3.0.0.4414
+COM+[3:48:56]:  Installation Mode = MAINTENANCE
+COM+[3:48:56]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:48:56]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:48:56]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:48:56]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:48:56]: Subcomponent com state: O-,C-,R+
+COM+[3:48:56]: End OC_QUERY_STATE Return Value = 0
+COM+[3:48:57]: Start OC_CLEANUP Component = com
+COM+[3:48:57]: Stopping service COM+ System Application...
+COM+[3:48:57]: Memory usage for setup process...
+COM+[3:48:57]: PeakWorkingSetSize: 24976 Kb, WorkingSetSize: 20136 Kb
+COM+[3:48:57]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:48:57]: PeakPagefileUsage: 11680 Kb, PagefileUsage: 11616 Kb
+COM+[3:48:57]: End OC_CLEANUP Return Value = 0
+COM+[3:48:57]: ********************************************************************************
+COM+[3:48:57]: Setup finished - [DATE:11,20,2006 TIME: 03:48 pm]
+COM+[3:48:57]: ********************************************************************************
+COM+[3:49:16]: ********************************************************************************
+COM+[3:49:16]: Setup started - [DATE:11,20,2006 TIME: 03:49 pm]
+COM+[3:49:16]: ********************************************************************************
+COM+[3:49:16]: Start OC_INIT_COMPONENT Component = com
+COM+[3:49:16]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:49:16]: Instantiating CMasterNT5Wks
+COM+[3:49:16]: Memory usage for setup process...
+COM+[3:49:16]: PeakWorkingSetSize: 10372 Kb, WorkingSetSize: 10372 Kb
+COM+[3:49:16]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:49:16]: PeakPagefileUsage: 9744 Kb, PagefileUsage: 9508 Kb
+COM+[3:49:16]: MTSS: Answer File = 
+COM+[3:49:16]: Calling SetupOpenInfFile.
+COM+[3:49:16]: Unable to open Answer File!!
+COM+[3:49:16]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:49:16]: Installed COM product version = 3.0.0.4414
+COM+[3:49:16]: SETUP VERSION = 3.0.0.4414
+COM+[3:49:16]:  Installation Mode = MAINTENANCE
+COM+[3:49:16]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:49:16]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:49:16]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:49:16]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:49:16]: Subcomponent com state: O-,C-,R+
+COM+[3:49:16]: End OC_QUERY_STATE Return Value = 0
+COM+[3:49:16]: Start OC_CLEANUP Component = com
+COM+[3:49:16]: Stopping service COM+ System Application...
+COM+[3:49:16]: Memory usage for setup process...
+COM+[3:49:16]: PeakWorkingSetSize: 25044 Kb, WorkingSetSize: 20288 Kb
+COM+[3:49:16]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:49:16]: PeakPagefileUsage: 11716 Kb, PagefileUsage: 11712 Kb
+COM+[3:49:16]: End OC_CLEANUP Return Value = 0
+COM+[3:49:17]: ********************************************************************************
+COM+[3:49:17]: Setup finished - [DATE:11,20,2006 TIME: 03:49 pm]
+COM+[3:49:17]: ********************************************************************************
+COM+[3:49:36]: ********************************************************************************
+COM+[3:49:36]: Setup started - [DATE:11,20,2006 TIME: 03:49 pm]
+COM+[3:49:36]: ********************************************************************************
+COM+[3:49:36]: Start OC_INIT_COMPONENT Component = com
+COM+[3:49:36]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:49:36]: Instantiating CMasterNT5Wks
+COM+[3:49:36]: Memory usage for setup process...
+COM+[3:49:36]: PeakWorkingSetSize: 10360 Kb, WorkingSetSize: 10360 Kb
+COM+[3:49:36]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:49:36]: PeakPagefileUsage: 9736 Kb, PagefileUsage: 9484 Kb
+COM+[3:49:36]: MTSS: Answer File = 
+COM+[3:49:36]: Calling SetupOpenInfFile.
+COM+[3:49:36]: Unable to open Answer File!!
+COM+[3:49:36]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:49:36]: Installed COM product version = 3.0.0.4414
+COM+[3:49:36]: SETUP VERSION = 3.0.0.4414
+COM+[3:49:36]:  Installation Mode = MAINTENANCE
+COM+[3:49:36]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:49:36]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:49:36]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:49:36]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:49:36]: Subcomponent com state: O-,C-,R+
+COM+[3:49:36]: End OC_QUERY_STATE Return Value = 0
+COM+[3:49:36]: Start OC_CLEANUP Component = com
+COM+[3:49:36]: Stopping service COM+ System Application...
+COM+[3:49:36]: Memory usage for setup process...
+COM+[3:49:36]: PeakWorkingSetSize: 25016 Kb, WorkingSetSize: 20184 Kb
+COM+[3:49:36]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:49:36]: PeakPagefileUsage: 11656 Kb, PagefileUsage: 11588 Kb
+COM+[3:49:36]: End OC_CLEANUP Return Value = 0
+COM+[3:49:36]: ********************************************************************************
+COM+[3:49:36]: Setup finished - [DATE:11,20,2006 TIME: 03:49 pm]
+COM+[3:49:36]: ********************************************************************************
+COM+[3:49:55]: ********************************************************************************
+COM+[3:49:55]: Setup started - [DATE:11,20,2006 TIME: 03:49 pm]
+COM+[3:49:55]: ********************************************************************************
+COM+[3:49:55]: Start OC_INIT_COMPONENT Component = com
+COM+[3:49:55]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:49:55]: Instantiating CMasterNT5Wks
+COM+[3:49:55]: Memory usage for setup process...
+COM+[3:49:55]: PeakWorkingSetSize: 10492 Kb, WorkingSetSize: 10492 Kb
+COM+[3:49:55]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:49:55]: PeakPagefileUsage: 9848 Kb, PagefileUsage: 9544 Kb
+COM+[3:49:55]: MTSS: Answer File = 
+COM+[3:49:55]: Calling SetupOpenInfFile.
+COM+[3:49:55]: Unable to open Answer File!!
+COM+[3:49:55]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:49:55]: Installed COM product version = 3.0.0.4414
+COM+[3:49:55]: SETUP VERSION = 3.0.0.4414
+COM+[3:49:55]:  Installation Mode = MAINTENANCE
+COM+[3:49:55]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:49:55]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:49:55]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:49:56]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:49:56]: Subcomponent com state: O-,C-,R+
+COM+[3:49:56]: End OC_QUERY_STATE Return Value = 0
+COM+[3:49:56]: Start OC_CLEANUP Component = com
+COM+[3:49:56]: Stopping service COM+ System Application...
+COM+[3:49:56]: Memory usage for setup process...
+COM+[3:49:56]: PeakWorkingSetSize: 25108 Kb, WorkingSetSize: 20368 Kb
+COM+[3:49:56]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:49:56]: PeakPagefileUsage: 11720 Kb, PagefileUsage: 11716 Kb
+COM+[3:49:56]: End OC_CLEANUP Return Value = 0
+COM+[3:49:56]: ********************************************************************************
+COM+[3:49:56]: Setup finished - [DATE:11,20,2006 TIME: 03:49 pm]
+COM+[3:49:56]: ********************************************************************************
+COM+[3:50:15]: ********************************************************************************
+COM+[3:50:15]: Setup started - [DATE:11,20,2006 TIME: 03:50 pm]
+COM+[3:50:15]: ********************************************************************************
+COM+[3:50:15]: Start OC_INIT_COMPONENT Component = com
+COM+[3:50:15]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:50:15]: Instantiating CMasterNT5Wks
+COM+[3:50:15]: Memory usage for setup process...
+COM+[3:50:15]: PeakWorkingSetSize: 10480 Kb, WorkingSetSize: 10480 Kb
+COM+[3:50:15]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:50:15]: PeakPagefileUsage: 9868 Kb, PagefileUsage: 9576 Kb
+COM+[3:50:15]: MTSS: Answer File = 
+COM+[3:50:15]: Calling SetupOpenInfFile.
+COM+[3:50:15]: Unable to open Answer File!!
+COM+[3:50:15]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:50:15]: Installed COM product version = 3.0.0.4414
+COM+[3:50:15]: SETUP VERSION = 3.0.0.4414
+COM+[3:50:15]:  Installation Mode = MAINTENANCE
+COM+[3:50:15]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:50:15]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:50:15]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:50:15]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:50:15]: Subcomponent com state: O-,C-,R+
+COM+[3:50:15]: End OC_QUERY_STATE Return Value = 0
+COM+[3:50:16]: Start OC_CLEANUP Component = com
+COM+[3:50:16]: Stopping service COM+ System Application...
+COM+[3:50:16]: Memory usage for setup process...
+COM+[3:50:16]: PeakWorkingSetSize: 25108 Kb, WorkingSetSize: 20364 Kb
+COM+[3:50:16]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:50:16]: PeakPagefileUsage: 11736 Kb, PagefileUsage: 11732 Kb
+COM+[3:50:16]: End OC_CLEANUP Return Value = 0
+COM+[3:50:16]: ********************************************************************************
+COM+[3:50:16]: Setup finished - [DATE:11,20,2006 TIME: 03:50 pm]
+COM+[3:50:16]: ********************************************************************************
+COM+[3:50:36]: ********************************************************************************
+COM+[3:50:36]: Setup started - [DATE:11,20,2006 TIME: 03:50 pm]
+COM+[3:50:36]: ********************************************************************************
+COM+[3:50:36]: Start OC_INIT_COMPONENT Component = com
+COM+[3:50:36]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:50:36]: Instantiating CMasterNT5Wks
+COM+[3:50:36]: Memory usage for setup process...
+COM+[3:50:36]: PeakWorkingSetSize: 10408 Kb, WorkingSetSize: 10408 Kb
+COM+[3:50:36]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:50:36]: PeakPagefileUsage: 9860 Kb, PagefileUsage: 9576 Kb
+COM+[3:50:36]: MTSS: Answer File = 
+COM+[3:50:36]: Calling SetupOpenInfFile.
+COM+[3:50:36]: Unable to open Answer File!!
+COM+[3:50:36]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:50:36]: Installed COM product version = 3.0.0.4414
+COM+[3:50:36]: SETUP VERSION = 3.0.0.4414
+COM+[3:50:36]:  Installation Mode = MAINTENANCE
+COM+[3:50:36]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:50:36]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:50:36]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:50:36]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:50:36]: Subcomponent com state: O-,C-,R+
+COM+[3:50:36]: End OC_QUERY_STATE Return Value = 0
+COM+[3:50:37]: Start OC_CLEANUP Component = com
+COM+[3:50:37]: Stopping service COM+ System Application...
+COM+[3:50:37]: Memory usage for setup process...
+COM+[3:50:37]: PeakWorkingSetSize: 25072 Kb, WorkingSetSize: 20332 Kb
+COM+[3:50:37]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:50:37]: PeakPagefileUsage: 11792 Kb, PagefileUsage: 11788 Kb
+COM+[3:50:37]: End OC_CLEANUP Return Value = 0
+COM+[3:50:37]: ********************************************************************************
+COM+[3:50:37]: Setup finished - [DATE:11,20,2006 TIME: 03:50 pm]
+COM+[3:50:37]: ********************************************************************************
+COM+[3:51:3]: ********************************************************************************
+COM+[3:51:3]: Setup started - [DATE:11,20,2006 TIME: 03:51 pm]
+COM+[3:51:3]: ********************************************************************************
+COM+[3:51:3]: Start OC_INIT_COMPONENT Component = com
+COM+[3:51:3]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:51:3]: Instantiating CMasterNT5Wks
+COM+[3:51:3]: Memory usage for setup process...
+COM+[3:51:3]: PeakWorkingSetSize: 10948 Kb, WorkingSetSize: 10948 Kb
+COM+[3:51:3]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:51:3]: PeakPagefileUsage: 10280 Kb, PagefileUsage: 9992 Kb
+COM+[3:51:3]: MTSS: Answer File = 
+COM+[3:51:3]: Calling SetupOpenInfFile.
+COM+[3:51:3]: Unable to open Answer File!!
+COM+[3:51:3]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:51:3]: Installed COM product version = 3.0.0.4414
+COM+[3:51:3]: SETUP VERSION = 3.0.0.4414
+COM+[3:51:3]:  Installation Mode = MAINTENANCE
+COM+[3:51:3]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:51:3]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:51:3]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:51:3]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:51:3]: Subcomponent com state: O-,C-,R+
+COM+[3:51:3]: End OC_QUERY_STATE Return Value = 0
+COM+[3:51:3]: Start OC_CLEANUP Component = com
+COM+[3:51:3]: Stopping service COM+ System Application...
+COM+[3:51:3]: Memory usage for setup process...
+COM+[3:51:3]: PeakWorkingSetSize: 25540 Kb, WorkingSetSize: 20800 Kb
+COM+[3:51:3]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:51:3]: PeakPagefileUsage: 12120 Kb, PagefileUsage: 12116 Kb
+COM+[3:51:3]: End OC_CLEANUP Return Value = 0
+COM+[3:51:4]: ********************************************************************************
+COM+[3:51:4]: Setup finished - [DATE:11,20,2006 TIME: 03:51 pm]
+COM+[3:51:4]: ********************************************************************************
+COM+[3:51:23]: ********************************************************************************
+COM+[3:51:23]: Setup started - [DATE:11,20,2006 TIME: 03:51 pm]
+COM+[3:51:23]: ********************************************************************************
+COM+[3:51:23]: Start OC_INIT_COMPONENT Component = com
+COM+[3:51:23]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:51:23]: Instantiating CMasterNT5Wks
+COM+[3:51:23]: Memory usage for setup process...
+COM+[3:51:23]: PeakWorkingSetSize: 10564 Kb, WorkingSetSize: 10564 Kb
+COM+[3:51:23]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:51:23]: PeakPagefileUsage: 9976 Kb, PagefileUsage: 9692 Kb
+COM+[3:51:23]: MTSS: Answer File = 
+COM+[3:51:23]: Calling SetupOpenInfFile.
+COM+[3:51:23]: Unable to open Answer File!!
+COM+[3:51:23]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:51:23]: Installed COM product version = 3.0.0.4414
+COM+[3:51:23]: SETUP VERSION = 3.0.0.4414
+COM+[3:51:23]:  Installation Mode = MAINTENANCE
+COM+[3:51:23]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:51:23]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:51:23]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:51:24]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:51:24]: Subcomponent com state: O-,C-,R+
+COM+[3:51:24]: End OC_QUERY_STATE Return Value = 0
+COM+[3:51:24]: Start OC_CLEANUP Component = com
+COM+[3:51:24]: Stopping service COM+ System Application...
+COM+[3:51:24]: Memory usage for setup process...
+COM+[3:51:24]: PeakWorkingSetSize: 25244 Kb, WorkingSetSize: 20424 Kb
+COM+[3:51:24]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:51:24]: PeakPagefileUsage: 11880 Kb, PagefileUsage: 11832 Kb
+COM+[3:51:24]: End OC_CLEANUP Return Value = 0
+COM+[3:51:24]: ********************************************************************************
+COM+[3:51:24]: Setup finished - [DATE:11,20,2006 TIME: 03:51 pm]
+COM+[3:51:24]: ********************************************************************************
+COM+[3:51:43]: ********************************************************************************
+COM+[3:51:43]: Setup started - [DATE:11,20,2006 TIME: 03:51 pm]
+COM+[3:51:43]: ********************************************************************************
+COM+[3:51:43]: Start OC_INIT_COMPONENT Component = com
+COM+[3:51:43]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:51:43]: Instantiating CMasterNT5Wks
+COM+[3:51:43]: Memory usage for setup process...
+COM+[3:51:43]: PeakWorkingSetSize: 10636 Kb, WorkingSetSize: 10636 Kb
+COM+[3:51:43]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:51:43]: PeakPagefileUsage: 9988 Kb, PagefileUsage: 9688 Kb
+COM+[3:51:43]: MTSS: Answer File = 
+COM+[3:51:43]: Calling SetupOpenInfFile.
+COM+[3:51:43]: Unable to open Answer File!!
+COM+[3:51:43]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:51:43]: Installed COM product version = 3.0.0.4414
+COM+[3:51:43]: SETUP VERSION = 3.0.0.4414
+COM+[3:51:43]:  Installation Mode = MAINTENANCE
+COM+[3:51:43]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:51:43]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:51:43]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:51:44]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:51:44]: Subcomponent com state: O-,C-,R+
+COM+[3:51:44]: End OC_QUERY_STATE Return Value = 0
+COM+[3:51:44]: Start OC_CLEANUP Component = com
+COM+[3:51:44]: Stopping service COM+ System Application...
+COM+[3:51:44]: Memory usage for setup process...
+COM+[3:51:44]: PeakWorkingSetSize: 25332 Kb, WorkingSetSize: 20592 Kb
+COM+[3:51:44]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:51:44]: PeakPagefileUsage: 11948 Kb, PagefileUsage: 11944 Kb
+COM+[3:51:44]: End OC_CLEANUP Return Value = 0
+COM+[3:51:44]: ********************************************************************************
+COM+[3:51:44]: Setup finished - [DATE:11,20,2006 TIME: 03:51 pm]
+COM+[3:51:44]: ********************************************************************************
+COM+[3:52:3]: ********************************************************************************
+COM+[3:52:3]: Setup started - [DATE:11,20,2006 TIME: 03:52 pm]
+COM+[3:52:3]: ********************************************************************************
+COM+[3:52:3]: Start OC_INIT_COMPONENT Component = com
+COM+[3:52:3]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:52:3]: Instantiating CMasterNT5Wks
+COM+[3:52:3]: Memory usage for setup process...
+COM+[3:52:3]: PeakWorkingSetSize: 10644 Kb, WorkingSetSize: 10644 Kb
+COM+[3:52:3]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:52:3]: PeakPagefileUsage: 9968 Kb, PagefileUsage: 9704 Kb
+COM+[3:52:3]: MTSS: Answer File = 
+COM+[3:52:3]: Calling SetupOpenInfFile.
+COM+[3:52:3]: Unable to open Answer File!!
+COM+[3:52:3]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:52:3]: Installed COM product version = 3.0.0.4414
+COM+[3:52:3]: SETUP VERSION = 3.0.0.4414
+COM+[3:52:3]:  Installation Mode = MAINTENANCE
+COM+[3:52:3]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:52:3]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:52:3]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:52:3]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:52:3]: Subcomponent com state: O-,C-,R+
+COM+[3:52:3]: End OC_QUERY_STATE Return Value = 0
+COM+[3:52:4]: Start OC_CLEANUP Component = com
+COM+[3:52:4]: Stopping service COM+ System Application...
+COM+[3:52:4]: Memory usage for setup process...
+COM+[3:52:4]: PeakWorkingSetSize: 25348 Kb, WorkingSetSize: 20608 Kb
+COM+[3:52:4]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:52:4]: PeakPagefileUsage: 11960 Kb, PagefileUsage: 11956 Kb
+COM+[3:52:4]: End OC_CLEANUP Return Value = 0
+COM+[3:52:4]: ********************************************************************************
+COM+[3:52:4]: Setup finished - [DATE:11,20,2006 TIME: 03:52 pm]
+COM+[3:52:4]: ********************************************************************************
+COM+[3:52:28]: ********************************************************************************
+COM+[3:52:28]: Setup started - [DATE:11,20,2006 TIME: 03:52 pm]
+COM+[3:52:28]: ********************************************************************************
+COM+[3:52:28]: Start OC_INIT_COMPONENT Component = com
+COM+[3:52:28]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:52:28]: Instantiating CMasterNT5Wks
+COM+[3:52:28]: Memory usage for setup process...
+COM+[3:52:28]: PeakWorkingSetSize: 14308 Kb, WorkingSetSize: 10716 Kb
+COM+[3:52:28]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:52:28]: PeakPagefileUsage: 15400 Kb, PagefileUsage: 9780 Kb
+COM+[3:52:28]: MTSS: Answer File = 
+COM+[3:52:28]: Calling SetupOpenInfFile.
+COM+[3:52:28]: Unable to open Answer File!!
+COM+[3:52:28]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:52:28]: Installed COM product version = 3.0.0.4414
+COM+[3:52:28]: SETUP VERSION = 3.0.0.4414
+COM+[3:52:28]:  Installation Mode = MAINTENANCE
+COM+[3:52:28]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:52:28]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:52:28]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:52:28]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:52:28]: Subcomponent com state: O-,C-,R+
+COM+[3:52:28]: End OC_QUERY_STATE Return Value = 0
+COM+[3:52:29]: Start OC_CLEANUP Component = com
+COM+[3:52:29]: Stopping service COM+ System Application...
+COM+[3:52:29]: Memory usage for setup process...
+COM+[3:52:29]: PeakWorkingSetSize: 25428 Kb, WorkingSetSize: 20684 Kb
+COM+[3:52:29]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:52:29]: PeakPagefileUsage: 15400 Kb, PagefileUsage: 12060 Kb
+COM+[3:52:29]: End OC_CLEANUP Return Value = 0
+COM+[3:52:29]: ********************************************************************************
+COM+[3:52:29]: Setup finished - [DATE:11,20,2006 TIME: 03:52 pm]
+COM+[3:52:29]: ********************************************************************************
+COM+[3:52:49]: ********************************************************************************
+COM+[3:52:49]: Setup started - [DATE:11,20,2006 TIME: 03:52 pm]
+COM+[3:52:49]: ********************************************************************************
+COM+[3:52:49]: Start OC_INIT_COMPONENT Component = com
+COM+[3:52:49]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:52:49]: Instantiating CMasterNT5Wks
+COM+[3:52:49]: Memory usage for setup process...
+COM+[3:52:49]: PeakWorkingSetSize: 10792 Kb, WorkingSetSize: 10792 Kb
+COM+[3:52:49]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:52:49]: PeakPagefileUsage: 10140 Kb, PagefileUsage: 9848 Kb
+COM+[3:52:49]: MTSS: Answer File = 
+COM+[3:52:49]: Calling SetupOpenInfFile.
+COM+[3:52:49]: Unable to open Answer File!!
+COM+[3:52:49]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:52:49]: Installed COM product version = 3.0.0.4414
+COM+[3:52:49]: SETUP VERSION = 3.0.0.4414
+COM+[3:52:49]:  Installation Mode = MAINTENANCE
+COM+[3:52:49]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:52:49]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:52:49]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:52:49]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:52:49]: Subcomponent com state: O-,C-,R+
+COM+[3:52:49]: End OC_QUERY_STATE Return Value = 0
+COM+[3:52:49]: Start OC_CLEANUP Component = com
+COM+[3:52:49]: Stopping service COM+ System Application...
+COM+[3:52:49]: Memory usage for setup process...
+COM+[3:52:49]: PeakWorkingSetSize: 25436 Kb, WorkingSetSize: 20684 Kb
+COM+[3:52:49]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:52:49]: PeakPagefileUsage: 12036 Kb, PagefileUsage: 12032 Kb
+COM+[3:52:49]: End OC_CLEANUP Return Value = 0
+COM+[3:52:50]: ********************************************************************************
+COM+[3:52:50]: Setup finished - [DATE:11,20,2006 TIME: 03:52 pm]
+COM+[3:52:50]: ********************************************************************************
+COM+[3:53:13]: ********************************************************************************
+COM+[3:53:13]: Setup started - [DATE:11,20,2006 TIME: 03:53 pm]
+COM+[3:53:13]: ********************************************************************************
+COM+[3:53:13]: Start OC_INIT_COMPONENT Component = com
+COM+[3:53:13]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:53:13]: Instantiating CMasterNT5Wks
+COM+[3:53:13]: Memory usage for setup process...
+COM+[3:53:13]: PeakWorkingSetSize: 10616 Kb, WorkingSetSize: 10616 Kb
+COM+[3:53:13]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:53:13]: PeakPagefileUsage: 9948 Kb, PagefileUsage: 9676 Kb
+COM+[3:53:13]: MTSS: Answer File = 
+COM+[3:53:13]: Calling SetupOpenInfFile.
+COM+[3:53:13]: Unable to open Answer File!!
+COM+[3:53:13]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:53:13]: Installed COM product version = 3.0.0.4414
+COM+[3:53:13]: SETUP VERSION = 3.0.0.4414
+COM+[3:53:13]:  Installation Mode = MAINTENANCE
+COM+[3:53:13]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:53:13]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:53:13]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:53:14]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:53:14]: Subcomponent com state: O-,C-,R+
+COM+[3:53:14]: End OC_QUERY_STATE Return Value = 0
+COM+[3:53:14]: Start OC_CLEANUP Component = com
+COM+[3:53:14]: Stopping service COM+ System Application...
+COM+[3:53:14]: Memory usage for setup process...
+COM+[3:53:14]: PeakWorkingSetSize: 25312 Kb, WorkingSetSize: 20572 Kb
+COM+[3:53:14]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:53:14]: PeakPagefileUsage: 11932 Kb, PagefileUsage: 11928 Kb
+COM+[3:53:14]: End OC_CLEANUP Return Value = 0
+COM+[3:53:15]: ********************************************************************************
+COM+[3:53:15]: Setup finished - [DATE:11,20,2006 TIME: 03:53 pm]
+COM+[3:53:15]: ********************************************************************************
+COM+[3:53:35]: ********************************************************************************
+COM+[3:53:35]: Setup started - [DATE:11,20,2006 TIME: 03:53 pm]
+COM+[3:53:35]: ********************************************************************************
+COM+[3:53:35]: Start OC_INIT_COMPONENT Component = com
+COM+[3:53:35]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:53:35]: Instantiating CMasterNT5Wks
+COM+[3:53:35]: Memory usage for setup process...
+COM+[3:53:35]: PeakWorkingSetSize: 10580 Kb, WorkingSetSize: 10580 Kb
+COM+[3:53:35]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:53:35]: PeakPagefileUsage: 9968 Kb, PagefileUsage: 9676 Kb
+COM+[3:53:35]: MTSS: Answer File = 
+COM+[3:53:35]: Calling SetupOpenInfFile.
+COM+[3:53:35]: Unable to open Answer File!!
+COM+[3:53:35]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:53:35]: Installed COM product version = 3.0.0.4414
+COM+[3:53:35]: SETUP VERSION = 3.0.0.4414
+COM+[3:53:35]:  Installation Mode = MAINTENANCE
+COM+[3:53:35]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:53:35]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:53:35]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:53:35]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:53:35]: Subcomponent com state: O-,C-,R+
+COM+[3:53:35]: End OC_QUERY_STATE Return Value = 0
+COM+[3:53:35]: Start OC_CLEANUP Component = com
+COM+[3:53:35]: Stopping service COM+ System Application...
+COM+[3:53:35]: Memory usage for setup process...
+COM+[3:53:35]: PeakWorkingSetSize: 25292 Kb, WorkingSetSize: 20544 Kb
+COM+[3:53:35]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:53:35]: PeakPagefileUsage: 11944 Kb, PagefileUsage: 11940 Kb
+COM+[3:53:35]: End OC_CLEANUP Return Value = 0
+COM+[3:53:35]: ********************************************************************************
+COM+[3:53:35]: Setup finished - [DATE:11,20,2006 TIME: 03:53 pm]
+COM+[3:53:35]: ********************************************************************************
+COM+[3:53:55]: ********************************************************************************
+COM+[3:53:55]: Setup started - [DATE:11,20,2006 TIME: 03:53 pm]
+COM+[3:53:55]: ********************************************************************************
+COM+[3:53:55]: Start OC_INIT_COMPONENT Component = com
+COM+[3:53:55]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:53:55]: Instantiating CMasterNT5Wks
+COM+[3:53:55]: Memory usage for setup process...
+COM+[3:53:55]: PeakWorkingSetSize: 10576 Kb, WorkingSetSize: 10576 Kb
+COM+[3:53:55]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:53:55]: PeakPagefileUsage: 9912 Kb, PagefileUsage: 9672 Kb
+COM+[3:53:55]: MTSS: Answer File = 
+COM+[3:53:55]: Calling SetupOpenInfFile.
+COM+[3:53:55]: Unable to open Answer File!!
+COM+[3:53:55]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:53:55]: Installed COM product version = 3.0.0.4414
+COM+[3:53:55]: SETUP VERSION = 3.0.0.4414
+COM+[3:53:55]:  Installation Mode = MAINTENANCE
+COM+[3:53:55]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:53:55]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:53:55]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:53:55]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:53:55]: Subcomponent com state: O-,C-,R+
+COM+[3:53:55]: End OC_QUERY_STATE Return Value = 0
+COM+[3:53:55]: Start OC_CLEANUP Component = com
+COM+[3:53:55]: Stopping service COM+ System Application...
+COM+[3:53:55]: Memory usage for setup process...
+COM+[3:53:55]: PeakWorkingSetSize: 25300 Kb, WorkingSetSize: 20464 Kb
+COM+[3:53:55]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:53:55]: PeakPagefileUsage: 11904 Kb, PagefileUsage: 11860 Kb
+COM+[3:53:55]: End OC_CLEANUP Return Value = 0
+COM+[3:53:55]: ********************************************************************************
+COM+[3:53:55]: Setup finished - [DATE:11,20,2006 TIME: 03:53 pm]
+COM+[3:53:55]: ********************************************************************************
+COM+[3:54:14]: ********************************************************************************
+COM+[3:54:14]: Setup started - [DATE:11,20,2006 TIME: 03:54 pm]
+COM+[3:54:14]: ********************************************************************************
+COM+[3:54:14]: Start OC_INIT_COMPONENT Component = com
+COM+[3:54:14]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:54:14]: Instantiating CMasterNT5Wks
+COM+[3:54:14]: Memory usage for setup process...
+COM+[3:54:14]: PeakWorkingSetSize: 10696 Kb, WorkingSetSize: 10696 Kb
+COM+[3:54:14]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:54:14]: PeakPagefileUsage: 9976 Kb, PagefileUsage: 9716 Kb
+COM+[3:54:14]: MTSS: Answer File = 
+COM+[3:54:14]: Calling SetupOpenInfFile.
+COM+[3:54:14]: Unable to open Answer File!!
+COM+[3:54:14]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:54:14]: Installed COM product version = 3.0.0.4414
+COM+[3:54:14]: SETUP VERSION = 3.0.0.4414
+COM+[3:54:14]:  Installation Mode = MAINTENANCE
+COM+[3:54:14]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:54:14]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:54:14]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:54:15]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:54:15]: Subcomponent com state: O-,C-,R+
+COM+[3:54:15]: End OC_QUERY_STATE Return Value = 0
+COM+[3:54:15]: Start OC_CLEANUP Component = com
+COM+[3:54:15]: Stopping service COM+ System Application...
+COM+[3:54:15]: Memory usage for setup process...
+COM+[3:54:15]: PeakWorkingSetSize: 25392 Kb, WorkingSetSize: 20648 Kb
+COM+[3:54:15]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:54:15]: PeakPagefileUsage: 11968 Kb, PagefileUsage: 11964 Kb
+COM+[3:54:15]: End OC_CLEANUP Return Value = 0
+COM+[3:54:15]: ********************************************************************************
+COM+[3:54:15]: Setup finished - [DATE:11,20,2006 TIME: 03:54 pm]
+COM+[3:54:15]: ********************************************************************************
+COM+[3:54:34]: ********************************************************************************
+COM+[3:54:34]: Setup started - [DATE:11,20,2006 TIME: 03:54 pm]
+COM+[3:54:34]: ********************************************************************************
+COM+[3:54:34]: Start OC_INIT_COMPONENT Component = com
+COM+[3:54:34]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:54:34]: Instantiating CMasterNT5Wks
+COM+[3:54:34]: Memory usage for setup process...
+COM+[3:54:34]: PeakWorkingSetSize: 10660 Kb, WorkingSetSize: 10660 Kb
+COM+[3:54:34]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:54:34]: PeakPagefileUsage: 9964 Kb, PagefileUsage: 9708 Kb
+COM+[3:54:34]: MTSS: Answer File = 
+COM+[3:54:34]: Calling SetupOpenInfFile.
+COM+[3:54:34]: Unable to open Answer File!!
+COM+[3:54:34]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:54:34]: Installed COM product version = 3.0.0.4414
+COM+[3:54:34]: SETUP VERSION = 3.0.0.4414
+COM+[3:54:34]:  Installation Mode = MAINTENANCE
+COM+[3:54:34]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:54:34]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:54:34]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:54:35]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:54:35]: Subcomponent com state: O-,C-,R+
+COM+[3:54:35]: End OC_QUERY_STATE Return Value = 0
+COM+[3:54:35]: Start OC_CLEANUP Component = com
+COM+[3:54:35]: Stopping service COM+ System Application...
+COM+[3:54:35]: Memory usage for setup process...
+COM+[3:54:35]: PeakWorkingSetSize: 25356 Kb, WorkingSetSize: 20616 Kb
+COM+[3:54:35]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:54:35]: PeakPagefileUsage: 11976 Kb, PagefileUsage: 11972 Kb
+COM+[3:54:35]: End OC_CLEANUP Return Value = 0
+COM+[3:54:35]: ********************************************************************************
+COM+[3:54:35]: Setup finished - [DATE:11,20,2006 TIME: 03:54 pm]
+COM+[3:54:35]: ********************************************************************************
+COM+[3:54:59]: ********************************************************************************
+COM+[3:54:59]: Setup started - [DATE:11,20,2006 TIME: 03:54 pm]
+COM+[3:54:59]: ********************************************************************************
+COM+[3:54:59]: Start OC_INIT_COMPONENT Component = com
+COM+[3:54:59]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:54:59]: Instantiating CMasterNT5Wks
+COM+[3:54:59]: Memory usage for setup process...
+COM+[3:54:59]: PeakWorkingSetSize: 19424 Kb, WorkingSetSize: 10604 Kb
+COM+[3:54:59]: QuotaPeakPagedPoolUsage: 50 Kb, QuotaPagedPoolUsage: 50 Kb
+COM+[3:54:59]: PeakPagefileUsage: 11868 Kb, PagefileUsage: 9760 Kb
+COM+[3:54:59]: MTSS: Answer File = 
+COM+[3:54:59]: Calling SetupOpenInfFile.
+COM+[3:54:59]: Unable to open Answer File!!
+COM+[3:54:59]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:54:59]: Installed COM product version = 3.0.0.4414
+COM+[3:54:59]: SETUP VERSION = 3.0.0.4414
+COM+[3:54:59]:  Installation Mode = MAINTENANCE
+COM+[3:54:59]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:54:59]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:54:59]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:54:59]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:54:59]: Subcomponent com state: O-,C-,R+
+COM+[3:54:59]: End OC_QUERY_STATE Return Value = 0
+COM+[3:55:0]: Start OC_CLEANUP Component = com
+COM+[3:55:0]: Stopping service COM+ System Application...
+COM+[3:55:0]: Memory usage for setup process...
+COM+[3:55:0]: PeakWorkingSetSize: 25176 Kb, WorkingSetSize: 20428 Kb
+COM+[3:55:0]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 67 Kb
+COM+[3:55:0]: PeakPagefileUsage: 11912 Kb, PagefileUsage: 11900 Kb
+COM+[3:55:0]: End OC_CLEANUP Return Value = 0
+COM+[3:55:0]: ********************************************************************************
+COM+[3:55:0]: Setup finished - [DATE:11,20,2006 TIME: 03:55 pm]
+COM+[3:55:0]: ********************************************************************************
+COM+[3:55:21]: ********************************************************************************
+COM+[3:55:21]: Setup started - [DATE:11,20,2006 TIME: 03:55 pm]
+COM+[3:55:21]: ********************************************************************************
+COM+[3:55:21]: Start OC_INIT_COMPONENT Component = com
+COM+[3:55:21]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:55:21]: Instantiating CMasterNT5Wks
+COM+[3:55:21]: Memory usage for setup process...
+COM+[3:55:21]: PeakWorkingSetSize: 10672 Kb, WorkingSetSize: 10672 Kb
+COM+[3:55:21]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:55:21]: PeakPagefileUsage: 10048 Kb, PagefileUsage: 9756 Kb
+COM+[3:55:21]: MTSS: Answer File = 
+COM+[3:55:21]: Calling SetupOpenInfFile.
+COM+[3:55:21]: Unable to open Answer File!!
+COM+[3:55:21]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:55:21]: Installed COM product version = 3.0.0.4414
+COM+[3:55:21]: SETUP VERSION = 3.0.0.4414
+COM+[3:55:21]:  Installation Mode = MAINTENANCE
+COM+[3:55:21]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:55:21]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:55:21]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:55:21]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:55:21]: Subcomponent com state: O-,C-,R+
+COM+[3:55:21]: End OC_QUERY_STATE Return Value = 0
+COM+[3:55:21]: Start OC_CLEANUP Component = com
+COM+[3:55:21]: Stopping service COM+ System Application...
+COM+[3:55:21]: Memory usage for setup process...
+COM+[3:55:21]: PeakWorkingSetSize: 25364 Kb, WorkingSetSize: 20624 Kb
+COM+[3:55:21]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:55:21]: PeakPagefileUsage: 12024 Kb, PagefileUsage: 12020 Kb
+COM+[3:55:21]: End OC_CLEANUP Return Value = 0
+COM+[3:55:21]: ********************************************************************************
+COM+[3:55:21]: Setup finished - [DATE:11,20,2006 TIME: 03:55 pm]
+COM+[3:55:21]: ********************************************************************************
+COM+[3:55:41]: ********************************************************************************
+COM+[3:55:41]: Setup started - [DATE:11,20,2006 TIME: 03:55 pm]
+COM+[3:55:41]: ********************************************************************************
+COM+[3:55:41]: Start OC_INIT_COMPONENT Component = com
+COM+[3:55:41]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:55:41]: Instantiating CMasterNT5Wks
+COM+[3:55:41]: Memory usage for setup process...
+COM+[3:55:41]: PeakWorkingSetSize: 10740 Kb, WorkingSetSize: 10740 Kb
+COM+[3:55:41]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:55:41]: PeakPagefileUsage: 10036 Kb, PagefileUsage: 9752 Kb
+COM+[3:55:41]: MTSS: Answer File = 
+COM+[3:55:41]: Calling SetupOpenInfFile.
+COM+[3:55:41]: Unable to open Answer File!!
+COM+[3:55:41]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:55:41]: Installed COM product version = 3.0.0.4414
+COM+[3:55:41]: SETUP VERSION = 3.0.0.4414
+COM+[3:55:41]:  Installation Mode = MAINTENANCE
+COM+[3:55:41]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:55:41]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:55:41]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:55:41]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:55:41]: Subcomponent com state: O-,C-,R+
+COM+[3:55:41]: End OC_QUERY_STATE Return Value = 0
+COM+[3:55:41]: Start OC_CLEANUP Component = com
+COM+[3:55:41]: Stopping service COM+ System Application...
+COM+[3:55:41]: Memory usage for setup process...
+COM+[3:55:41]: PeakWorkingSetSize: 25420 Kb, WorkingSetSize: 20596 Kb
+COM+[3:55:41]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:55:41]: PeakPagefileUsage: 11956 Kb, PagefileUsage: 11916 Kb
+COM+[3:55:41]: End OC_CLEANUP Return Value = 0
+COM+[3:55:41]: ********************************************************************************
+COM+[3:55:41]: Setup finished - [DATE:11,20,2006 TIME: 03:55 pm]
+COM+[3:55:41]: ********************************************************************************
+COM+[3:56:2]: ********************************************************************************
+COM+[3:56:2]: Setup started - [DATE:11,20,2006 TIME: 03:56 pm]
+COM+[3:56:2]: ********************************************************************************
+COM+[3:56:2]: Start OC_INIT_COMPONENT Component = com
+COM+[3:56:2]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:56:2]: Instantiating CMasterNT5Wks
+COM+[3:56:2]: Memory usage for setup process...
+COM+[3:56:2]: PeakWorkingSetSize: 19844 Kb, WorkingSetSize: 10872 Kb
+COM+[3:56:2]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:56:2]: PeakPagefileUsage: 12992 Kb, PagefileUsage: 9936 Kb
+COM+[3:56:2]: MTSS: Answer File = 
+COM+[3:56:2]: Calling SetupOpenInfFile.
+COM+[3:56:2]: Unable to open Answer File!!
+COM+[3:56:2]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:56:2]: Installed COM product version = 3.0.0.4414
+COM+[3:56:2]: SETUP VERSION = 3.0.0.4414
+COM+[3:56:2]:  Installation Mode = MAINTENANCE
+COM+[3:56:2]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:56:2]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:56:2]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:56:2]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:56:2]: Subcomponent com state: O-,C-,R+
+COM+[3:56:2]: End OC_QUERY_STATE Return Value = 0
+COM+[3:56:2]: Start OC_CLEANUP Component = com
+COM+[3:56:2]: Stopping service COM+ System Application...
+COM+[3:56:2]: Memory usage for setup process...
+COM+[3:56:2]: PeakWorkingSetSize: 25428 Kb, WorkingSetSize: 20584 Kb
+COM+[3:56:2]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:56:2]: PeakPagefileUsage: 12992 Kb, PagefileUsage: 11940 Kb
+COM+[3:56:2]: End OC_CLEANUP Return Value = 0
+COM+[3:56:2]: ********************************************************************************
+COM+[3:56:2]: Setup finished - [DATE:11,20,2006 TIME: 03:56 pm]
+COM+[3:56:2]: ********************************************************************************
+COM+[3:56:26]: ********************************************************************************
+COM+[3:56:26]: Setup started - [DATE:11,20,2006 TIME: 03:56 pm]
+COM+[3:56:26]: ********************************************************************************
+COM+[3:56:26]: Start OC_INIT_COMPONENT Component = com
+COM+[3:56:26]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:56:26]: Instantiating CMasterNT5Wks
+COM+[3:56:26]: Memory usage for setup process...
+COM+[3:56:26]: PeakWorkingSetSize: 14720 Kb, WorkingSetSize: 10736 Kb
+COM+[3:56:26]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:56:26]: PeakPagefileUsage: 15400 Kb, PagefileUsage: 9772 Kb
+COM+[3:56:26]: MTSS: Answer File = 
+COM+[3:56:26]: Calling SetupOpenInfFile.
+COM+[3:56:26]: Unable to open Answer File!!
+COM+[3:56:26]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:56:26]: Installed COM product version = 3.0.0.4414
+COM+[3:56:26]: SETUP VERSION = 3.0.0.4414
+COM+[3:56:26]:  Installation Mode = MAINTENANCE
+COM+[3:56:26]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:56:26]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:56:26]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:56:26]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:56:26]: Subcomponent com state: O-,C-,R+
+COM+[3:56:26]: End OC_QUERY_STATE Return Value = 0
+COM+[3:56:26]: Start OC_CLEANUP Component = com
+COM+[3:56:26]: Stopping service COM+ System Application...
+COM+[3:56:26]: Memory usage for setup process...
+COM+[3:56:26]: PeakWorkingSetSize: 25440 Kb, WorkingSetSize: 20700 Kb
+COM+[3:56:26]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:56:26]: PeakPagefileUsage: 15400 Kb, PagefileUsage: 12036 Kb
+COM+[3:56:26]: End OC_CLEANUP Return Value = 0
+COM+[3:56:26]: ********************************************************************************
+COM+[3:56:26]: Setup finished - [DATE:11,20,2006 TIME: 03:56 pm]
+COM+[3:56:26]: ********************************************************************************
+COM+[3:56:49]: ********************************************************************************
+COM+[3:56:49]: Setup started - [DATE:11,20,2006 TIME: 03:56 pm]
+COM+[3:56:49]: ********************************************************************************
+COM+[3:56:49]: Start OC_INIT_COMPONENT Component = com
+COM+[3:56:49]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:56:49]: Instantiating CMasterNT5Wks
+COM+[3:56:49]: Memory usage for setup process...
+COM+[3:56:49]: PeakWorkingSetSize: 19392 Kb, WorkingSetSize: 10624 Kb
+COM+[3:56:49]: QuotaPeakPagedPoolUsage: 50 Kb, QuotaPagedPoolUsage: 50 Kb
+COM+[3:56:49]: PeakPagefileUsage: 12040 Kb, PagefileUsage: 9792 Kb
+COM+[3:56:49]: MTSS: Answer File = 
+COM+[3:56:49]: Calling SetupOpenInfFile.
+COM+[3:56:49]: Unable to open Answer File!!
+COM+[3:56:49]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:56:49]: Installed COM product version = 3.0.0.4414
+COM+[3:56:49]: SETUP VERSION = 3.0.0.4414
+COM+[3:56:49]:  Installation Mode = MAINTENANCE
+COM+[3:56:49]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:56:49]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:56:49]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:56:49]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:56:49]: Subcomponent com state: O-,C-,R+
+COM+[3:56:49]: End OC_QUERY_STATE Return Value = 0
+COM+[3:56:50]: Start OC_CLEANUP Component = com
+COM+[3:56:50]: Stopping service COM+ System Application...
+COM+[3:56:50]: Memory usage for setup process...
+COM+[3:56:50]: PeakWorkingSetSize: 25196 Kb, WorkingSetSize: 20448 Kb
+COM+[3:56:50]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 67 Kb
+COM+[3:56:50]: PeakPagefileUsage: 12040 Kb, PagefileUsage: 11944 Kb
+COM+[3:56:50]: End OC_CLEANUP Return Value = 0
+COM+[3:56:50]: ********************************************************************************
+COM+[3:56:50]: Setup finished - [DATE:11,20,2006 TIME: 03:56 pm]
+COM+[3:56:50]: ********************************************************************************
+COM+[3:57:9]: ********************************************************************************
+COM+[3:57:9]: Setup started - [DATE:11,20,2006 TIME: 03:57 pm]
+COM+[3:57:9]: ********************************************************************************
+COM+[3:57:9]: Start OC_INIT_COMPONENT Component = com
+COM+[3:57:9]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:57:9]: Instantiating CMasterNT5Wks
+COM+[3:57:9]: Memory usage for setup process...
+COM+[3:57:9]: PeakWorkingSetSize: 10648 Kb, WorkingSetSize: 10648 Kb
+COM+[3:57:9]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:57:9]: PeakPagefileUsage: 10032 Kb, PagefileUsage: 9736 Kb
+COM+[3:57:9]: MTSS: Answer File = 
+COM+[3:57:9]: Calling SetupOpenInfFile.
+COM+[3:57:9]: Unable to open Answer File!!
+COM+[3:57:9]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:57:9]: Installed COM product version = 3.0.0.4414
+COM+[3:57:9]: SETUP VERSION = 3.0.0.4414
+COM+[3:57:9]:  Installation Mode = MAINTENANCE
+COM+[3:57:9]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:57:9]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:57:9]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:57:10]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:57:10]: Subcomponent com state: O-,C-,R+
+COM+[3:57:10]: End OC_QUERY_STATE Return Value = 0
+COM+[3:57:10]: Start OC_CLEANUP Component = com
+COM+[3:57:10]: Stopping service COM+ System Application...
+COM+[3:57:10]: Memory usage for setup process...
+COM+[3:57:10]: PeakWorkingSetSize: 25360 Kb, WorkingSetSize: 20620 Kb
+COM+[3:57:10]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:57:10]: PeakPagefileUsage: 12004 Kb, PagefileUsage: 12000 Kb
+COM+[3:57:10]: End OC_CLEANUP Return Value = 0
+COM+[3:57:10]: ********************************************************************************
+COM+[3:57:10]: Setup finished - [DATE:11,20,2006 TIME: 03:57 pm]
+COM+[3:57:10]: ********************************************************************************
+COM+[3:57:30]: ********************************************************************************
+COM+[3:57:30]: Setup started - [DATE:11,20,2006 TIME: 03:57 pm]
+COM+[3:57:30]: ********************************************************************************
+COM+[3:57:30]: Start OC_INIT_COMPONENT Component = com
+COM+[3:57:30]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:57:30]: Instantiating CMasterNT5Wks
+COM+[3:57:30]: Memory usage for setup process...
+COM+[3:57:30]: PeakWorkingSetSize: 10736 Kb, WorkingSetSize: 10736 Kb
+COM+[3:57:30]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:57:30]: PeakPagefileUsage: 9984 Kb, PagefileUsage: 9756 Kb
+COM+[3:57:30]: MTSS: Answer File = 
+COM+[3:57:30]: Calling SetupOpenInfFile.
+COM+[3:57:30]: Unable to open Answer File!!
+COM+[3:57:30]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:57:30]: Installed COM product version = 3.0.0.4414
+COM+[3:57:30]: SETUP VERSION = 3.0.0.4414
+COM+[3:57:30]:  Installation Mode = MAINTENANCE
+COM+[3:57:30]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:57:30]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:57:30]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:57:30]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:57:30]: Subcomponent com state: O-,C-,R+
+COM+[3:57:30]: End OC_QUERY_STATE Return Value = 0
+COM+[3:57:30]: Start OC_CLEANUP Component = com
+COM+[3:57:30]: Stopping service COM+ System Application...
+COM+[3:57:30]: Memory usage for setup process...
+COM+[3:57:30]: PeakWorkingSetSize: 25416 Kb, WorkingSetSize: 20672 Kb
+COM+[3:57:30]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:57:30]: PeakPagefileUsage: 12020 Kb, PagefileUsage: 12016 Kb
+COM+[3:57:30]: End OC_CLEANUP Return Value = 0
+COM+[3:57:30]: ********************************************************************************
+COM+[3:57:30]: Setup finished - [DATE:11,20,2006 TIME: 03:57 pm]
+COM+[3:57:30]: ********************************************************************************
+COM+[3:57:50]: ********************************************************************************
+COM+[3:57:50]: Setup started - [DATE:11,20,2006 TIME: 03:57 pm]
+COM+[3:57:50]: ********************************************************************************
+COM+[3:57:50]: Start OC_INIT_COMPONENT Component = com
+COM+[3:57:50]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:57:50]: Instantiating CMasterNT5Wks
+COM+[3:57:50]: Memory usage for setup process...
+COM+[3:57:50]: PeakWorkingSetSize: 10692 Kb, WorkingSetSize: 10692 Kb
+COM+[3:57:50]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:57:50]: PeakPagefileUsage: 10044 Kb, PagefileUsage: 9752 Kb
+COM+[3:57:50]: MTSS: Answer File = 
+COM+[3:57:50]: Calling SetupOpenInfFile.
+COM+[3:57:50]: Unable to open Answer File!!
+COM+[3:57:50]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:57:50]: Installed COM product version = 3.0.0.4414
+COM+[3:57:50]: SETUP VERSION = 3.0.0.4414
+COM+[3:57:50]:  Installation Mode = MAINTENANCE
+COM+[3:57:50]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:57:50]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:57:50]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:57:50]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:57:50]: Subcomponent com state: O-,C-,R+
+COM+[3:57:50]: End OC_QUERY_STATE Return Value = 0
+COM+[3:57:50]: Start OC_CLEANUP Component = com
+COM+[3:57:50]: Stopping service COM+ System Application...
+COM+[3:57:50]: Memory usage for setup process...
+COM+[3:57:50]: PeakWorkingSetSize: 25384 Kb, WorkingSetSize: 20644 Kb
+COM+[3:57:50]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:57:50]: PeakPagefileUsage: 12012 Kb, PagefileUsage: 12008 Kb
+COM+[3:57:50]: End OC_CLEANUP Return Value = 0
+COM+[3:57:50]: ********************************************************************************
+COM+[3:57:50]: Setup finished - [DATE:11,20,2006 TIME: 03:57 pm]
+COM+[3:57:50]: ********************************************************************************
+COM+[3:58:11]: ********************************************************************************
+COM+[3:58:11]: Setup started - [DATE:11,20,2006 TIME: 03:58 pm]
+COM+[3:58:11]: ********************************************************************************
+COM+[3:58:11]: Start OC_INIT_COMPONENT Component = com
+COM+[3:58:11]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:58:11]: Instantiating CMasterNT5Wks
+COM+[3:58:11]: Memory usage for setup process...
+COM+[3:58:11]: PeakWorkingSetSize: 10832 Kb, WorkingSetSize: 10832 Kb
+COM+[3:58:11]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:58:11]: PeakPagefileUsage: 10148 Kb, PagefileUsage: 9860 Kb
+COM+[3:58:11]: MTSS: Answer File = 
+COM+[3:58:11]: Calling SetupOpenInfFile.
+COM+[3:58:11]: Unable to open Answer File!!
+COM+[3:58:11]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:58:11]: Installed COM product version = 3.0.0.4414
+COM+[3:58:11]: SETUP VERSION = 3.0.0.4414
+COM+[3:58:11]:  Installation Mode = MAINTENANCE
+COM+[3:58:11]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:58:11]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:58:11]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:58:11]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:58:11]: Subcomponent com state: O-,C-,R+
+COM+[3:58:11]: End OC_QUERY_STATE Return Value = 0
+COM+[3:58:12]: Start OC_CLEANUP Component = com
+COM+[3:58:12]: Stopping service COM+ System Application...
+COM+[3:58:12]: Memory usage for setup process...
+COM+[3:58:12]: PeakWorkingSetSize: 25528 Kb, WorkingSetSize: 20784 Kb
+COM+[3:58:12]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:58:12]: PeakPagefileUsage: 12132 Kb, PagefileUsage: 12128 Kb
+COM+[3:58:12]: End OC_CLEANUP Return Value = 0
+COM+[3:58:12]: ********************************************************************************
+COM+[3:58:12]: Setup finished - [DATE:11,20,2006 TIME: 03:58 pm]
+COM+[3:58:12]: ********************************************************************************
+COM+[3:58:31]: ********************************************************************************
+COM+[3:58:31]: Setup started - [DATE:11,20,2006 TIME: 03:58 pm]
+COM+[3:58:31]: ********************************************************************************
+COM+[3:58:31]: Start OC_INIT_COMPONENT Component = com
+COM+[3:58:31]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:58:31]: Instantiating CMasterNT5Wks
+COM+[3:58:31]: Memory usage for setup process...
+COM+[3:58:31]: PeakWorkingSetSize: 10660 Kb, WorkingSetSize: 10660 Kb
+COM+[3:58:31]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:58:31]: PeakPagefileUsage: 10016 Kb, PagefileUsage: 9744 Kb
+COM+[3:58:31]: MTSS: Answer File = 
+COM+[3:58:31]: Calling SetupOpenInfFile.
+COM+[3:58:31]: Unable to open Answer File!!
+COM+[3:58:31]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:58:31]: Installed COM product version = 3.0.0.4414
+COM+[3:58:31]: SETUP VERSION = 3.0.0.4414
+COM+[3:58:31]:  Installation Mode = MAINTENANCE
+COM+[3:58:31]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:58:31]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:58:31]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:58:32]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:58:32]: Subcomponent com state: O-,C-,R+
+COM+[3:58:32]: End OC_QUERY_STATE Return Value = 0
+COM+[3:58:32]: Start OC_CLEANUP Component = com
+COM+[3:58:32]: Stopping service COM+ System Application...
+COM+[3:58:32]: Memory usage for setup process...
+COM+[3:58:32]: PeakWorkingSetSize: 25360 Kb, WorkingSetSize: 20612 Kb
+COM+[3:58:32]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:58:32]: PeakPagefileUsage: 12008 Kb, PagefileUsage: 12004 Kb
+COM+[3:58:32]: End OC_CLEANUP Return Value = 0
+COM+[3:58:32]: ********************************************************************************
+COM+[3:58:32]: Setup finished - [DATE:11,20,2006 TIME: 03:58 pm]
+COM+[3:58:32]: ********************************************************************************
+COM+[3:58:52]: ********************************************************************************
+COM+[3:58:52]: Setup started - [DATE:11,20,2006 TIME: 03:58 pm]
+COM+[3:58:52]: ********************************************************************************
+COM+[3:58:52]: Start OC_INIT_COMPONENT Component = com
+COM+[3:58:52]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:58:52]: Instantiating CMasterNT5Wks
+COM+[3:58:52]: Memory usage for setup process...
+COM+[3:58:52]: PeakWorkingSetSize: 10696 Kb, WorkingSetSize: 10696 Kb
+COM+[3:58:52]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:58:52]: PeakPagefileUsage: 10016 Kb, PagefileUsage: 9744 Kb
+COM+[3:58:52]: MTSS: Answer File = 
+COM+[3:58:52]: Calling SetupOpenInfFile.
+COM+[3:58:52]: Unable to open Answer File!!
+COM+[3:58:52]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:58:52]: Installed COM product version = 3.0.0.4414
+COM+[3:58:52]: SETUP VERSION = 3.0.0.4414
+COM+[3:58:52]:  Installation Mode = MAINTENANCE
+COM+[3:58:52]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:58:52]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:58:52]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:58:52]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:58:52]: Subcomponent com state: O-,C-,R+
+COM+[3:58:52]: End OC_QUERY_STATE Return Value = 0
+COM+[3:58:52]: Start OC_CLEANUP Component = com
+COM+[3:58:52]: Stopping service COM+ System Application...
+COM+[3:58:52]: Memory usage for setup process...
+COM+[3:58:52]: PeakWorkingSetSize: 25392 Kb, WorkingSetSize: 20648 Kb
+COM+[3:58:52]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:58:52]: PeakPagefileUsage: 12000 Kb, PagefileUsage: 11996 Kb
+COM+[3:58:52]: End OC_CLEANUP Return Value = 0
+COM+[3:58:52]: ********************************************************************************
+COM+[3:58:52]: Setup finished - [DATE:11,20,2006 TIME: 03:58 pm]
+COM+[3:58:52]: ********************************************************************************
+COM+[3:59:12]: ********************************************************************************
+COM+[3:59:12]: Setup started - [DATE:11,20,2006 TIME: 03:59 pm]
+COM+[3:59:12]: ********************************************************************************
+COM+[3:59:12]: Start OC_INIT_COMPONENT Component = com
+COM+[3:59:12]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:59:12]: Instantiating CMasterNT5Wks
+COM+[3:59:12]: Memory usage for setup process...
+COM+[3:59:12]: PeakWorkingSetSize: 10816 Kb, WorkingSetSize: 10816 Kb
+COM+[3:59:12]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:59:12]: PeakPagefileUsage: 10100 Kb, PagefileUsage: 9812 Kb
+COM+[3:59:12]: MTSS: Answer File = 
+COM+[3:59:12]: Calling SetupOpenInfFile.
+COM+[3:59:12]: Unable to open Answer File!!
+COM+[3:59:12]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:59:12]: Installed COM product version = 3.0.0.4414
+COM+[3:59:12]: SETUP VERSION = 3.0.0.4414
+COM+[3:59:12]:  Installation Mode = MAINTENANCE
+COM+[3:59:12]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:59:12]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:59:12]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:59:13]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:59:13]: Subcomponent com state: O-,C-,R+
+COM+[3:59:13]: End OC_QUERY_STATE Return Value = 0
+COM+[3:59:13]: Start OC_CLEANUP Component = com
+COM+[3:59:13]: Stopping service COM+ System Application...
+COM+[3:59:13]: Memory usage for setup process...
+COM+[3:59:13]: PeakWorkingSetSize: 25504 Kb, WorkingSetSize: 20760 Kb
+COM+[3:59:13]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:59:13]: PeakPagefileUsage: 12064 Kb, PagefileUsage: 12060 Kb
+COM+[3:59:13]: End OC_CLEANUP Return Value = 0
+COM+[3:59:13]: ********************************************************************************
+COM+[3:59:13]: Setup finished - [DATE:11,20,2006 TIME: 03:59 pm]
+COM+[3:59:13]: ********************************************************************************
+COM+[3:59:33]: ********************************************************************************
+COM+[3:59:33]: Setup started - [DATE:11,20,2006 TIME: 03:59 pm]
+COM+[3:59:33]: ********************************************************************************
+COM+[3:59:33]: Start OC_INIT_COMPONENT Component = com
+COM+[3:59:33]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:59:33]: Instantiating CMasterNT5Wks
+COM+[3:59:33]: Memory usage for setup process...
+COM+[3:59:33]: PeakWorkingSetSize: 10736 Kb, WorkingSetSize: 10736 Kb
+COM+[3:59:33]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:59:33]: PeakPagefileUsage: 10036 Kb, PagefileUsage: 9800 Kb
+COM+[3:59:33]: MTSS: Answer File = 
+COM+[3:59:33]: Calling SetupOpenInfFile.
+COM+[3:59:33]: Unable to open Answer File!!
+COM+[3:59:33]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:59:33]: Installed COM product version = 3.0.0.4414
+COM+[3:59:33]: SETUP VERSION = 3.0.0.4414
+COM+[3:59:33]:  Installation Mode = MAINTENANCE
+COM+[3:59:33]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:59:33]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:59:33]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:59:33]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:59:33]: Subcomponent com state: O-,C-,R+
+COM+[3:59:33]: End OC_QUERY_STATE Return Value = 0
+COM+[3:59:33]: Start OC_CLEANUP Component = com
+COM+[3:59:33]: Stopping service COM+ System Application...
+COM+[3:59:33]: Memory usage for setup process...
+COM+[3:59:33]: PeakWorkingSetSize: 25448 Kb, WorkingSetSize: 20700 Kb
+COM+[3:59:33]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:59:33]: PeakPagefileUsage: 12072 Kb, PagefileUsage: 12068 Kb
+COM+[3:59:33]: End OC_CLEANUP Return Value = 0
+COM+[3:59:34]: ********************************************************************************
+COM+[3:59:34]: Setup finished - [DATE:11,20,2006 TIME: 03:59 pm]
+COM+[3:59:34]: ********************************************************************************
+COM+[3:59:54]: ********************************************************************************
+COM+[3:59:54]: Setup started - [DATE:11,20,2006 TIME: 03:59 pm]
+COM+[3:59:54]: ********************************************************************************
+COM+[3:59:54]: Start OC_INIT_COMPONENT Component = com
+COM+[3:59:54]: INF VERSION (com) = 2001,12,4414,42
+COM+[3:59:54]: Instantiating CMasterNT5Wks
+COM+[3:59:54]: Memory usage for setup process...
+COM+[3:59:54]: PeakWorkingSetSize: 10740 Kb, WorkingSetSize: 10740 Kb
+COM+[3:59:54]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[3:59:54]: PeakPagefileUsage: 10072 Kb, PagefileUsage: 9808 Kb
+COM+[3:59:54]: MTSS: Answer File = 
+COM+[3:59:54]: Calling SetupOpenInfFile.
+COM+[3:59:54]: Unable to open Answer File!!
+COM+[3:59:54]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[3:59:54]: Installed COM product version = 3.0.0.4414
+COM+[3:59:54]: SETUP VERSION = 3.0.0.4414
+COM+[3:59:54]:  Installation Mode = MAINTENANCE
+COM+[3:59:54]:  Maintnenance Mode = ADD_REMOVE
+COM+[3:59:54]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[3:59:54]: End OC_INIT_COMPONENT Return Value = 0
+COM+[3:59:54]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[3:59:54]: Subcomponent com state: O-,C-,R+
+COM+[3:59:54]: End OC_QUERY_STATE Return Value = 0
+COM+[3:59:54]: Start OC_CLEANUP Component = com
+COM+[3:59:54]: Stopping service COM+ System Application...
+COM+[3:59:54]: Memory usage for setup process...
+COM+[3:59:54]: PeakWorkingSetSize: 25456 Kb, WorkingSetSize: 20712 Kb
+COM+[3:59:54]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[3:59:54]: PeakPagefileUsage: 12068 Kb, PagefileUsage: 12064 Kb
+COM+[3:59:54]: End OC_CLEANUP Return Value = 0
+COM+[3:59:54]: ********************************************************************************
+COM+[3:59:54]: Setup finished - [DATE:11,20,2006 TIME: 03:59 pm]
+COM+[3:59:54]: ********************************************************************************
+COM+[4:0:14]: ********************************************************************************
+COM+[4:0:14]: Setup started - [DATE:11,20,2006 TIME: 04:00 pm]
+COM+[4:0:14]: ********************************************************************************
+COM+[4:0:14]: Start OC_INIT_COMPONENT Component = com
+COM+[4:0:14]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:0:14]: Instantiating CMasterNT5Wks
+COM+[4:0:14]: Memory usage for setup process...
+COM+[4:0:14]: PeakWorkingSetSize: 10864 Kb, WorkingSetSize: 10864 Kb
+COM+[4:0:14]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:0:14]: PeakPagefileUsage: 10116 Kb, PagefileUsage: 9860 Kb
+COM+[4:0:14]: MTSS: Answer File = 
+COM+[4:0:14]: Calling SetupOpenInfFile.
+COM+[4:0:14]: Unable to open Answer File!!
+COM+[4:0:14]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:0:14]: Installed COM product version = 3.0.0.4414
+COM+[4:0:14]: SETUP VERSION = 3.0.0.4414
+COM+[4:0:14]:  Installation Mode = MAINTENANCE
+COM+[4:0:14]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:0:14]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:0:14]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:0:15]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:0:15]: Subcomponent com state: O-,C-,R+
+COM+[4:0:15]: End OC_QUERY_STATE Return Value = 0
+COM+[4:0:15]: Start OC_CLEANUP Component = com
+COM+[4:0:15]: Stopping service COM+ System Application...
+COM+[4:0:15]: Memory usage for setup process...
+COM+[4:0:15]: PeakWorkingSetSize: 25552 Kb, WorkingSetSize: 20804 Kb
+COM+[4:0:15]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:0:15]: PeakPagefileUsage: 12116 Kb, PagefileUsage: 12112 Kb
+COM+[4:0:15]: End OC_CLEANUP Return Value = 0
+COM+[4:0:15]: ********************************************************************************
+COM+[4:0:15]: Setup finished - [DATE:11,20,2006 TIME: 04:00 pm]
+COM+[4:0:15]: ********************************************************************************
+COM+[4:0:39]: ********************************************************************************
+COM+[4:0:39]: Setup started - [DATE:11,20,2006 TIME: 04:00 pm]
+COM+[4:0:39]: ********************************************************************************
+COM+[4:0:39]: Start OC_INIT_COMPONENT Component = com
+COM+[4:0:39]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:0:39]: Instantiating CMasterNT5Wks
+COM+[4:0:39]: Memory usage for setup process...
+COM+[4:0:39]: PeakWorkingSetSize: 14852 Kb, WorkingSetSize: 10876 Kb
+COM+[4:0:39]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:0:39]: PeakPagefileUsage: 15564 Kb, PagefileUsage: 9872 Kb
+COM+[4:0:39]: MTSS: Answer File = 
+COM+[4:0:39]: Calling SetupOpenInfFile.
+COM+[4:0:39]: Unable to open Answer File!!
+COM+[4:0:39]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:0:39]: Installed COM product version = 3.0.0.4414
+COM+[4:0:39]: SETUP VERSION = 3.0.0.4414
+COM+[4:0:39]:  Installation Mode = MAINTENANCE
+COM+[4:0:39]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:0:39]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:0:39]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:0:39]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:0:39]: Subcomponent com state: O-,C-,R+
+COM+[4:0:39]: End OC_QUERY_STATE Return Value = 0
+COM+[4:0:39]: Start OC_CLEANUP Component = com
+COM+[4:0:39]: Stopping service COM+ System Application...
+COM+[4:0:39]: Memory usage for setup process...
+COM+[4:0:39]: PeakWorkingSetSize: 25556 Kb, WorkingSetSize: 20812 Kb
+COM+[4:0:39]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:0:39]: PeakPagefileUsage: 15564 Kb, PagefileUsage: 12132 Kb
+COM+[4:0:39]: End OC_CLEANUP Return Value = 0
+COM+[4:0:39]: ********************************************************************************
+COM+[4:0:39]: Setup finished - [DATE:11,20,2006 TIME: 04:00 pm]
+COM+[4:0:39]: ********************************************************************************
+COM+[4:0:59]: ********************************************************************************
+COM+[4:0:59]: Setup started - [DATE:11,20,2006 TIME: 04:00 pm]
+COM+[4:0:59]: ********************************************************************************
+COM+[4:0:59]: Start OC_INIT_COMPONENT Component = com
+COM+[4:0:59]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:0:59]: Instantiating CMasterNT5Wks
+COM+[4:0:59]: Memory usage for setup process...
+COM+[4:0:59]: PeakWorkingSetSize: 10848 Kb, WorkingSetSize: 10848 Kb
+COM+[4:0:59]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:0:59]: PeakPagefileUsage: 10232 Kb, PagefileUsage: 9900 Kb
+COM+[4:0:59]: MTSS: Answer File = 
+COM+[4:0:59]: Calling SetupOpenInfFile.
+COM+[4:0:59]: Unable to open Answer File!!
+COM+[4:0:59]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:0:59]: Installed COM product version = 3.0.0.4414
+COM+[4:0:59]: SETUP VERSION = 3.0.0.4414
+COM+[4:0:59]:  Installation Mode = MAINTENANCE
+COM+[4:0:59]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:0:59]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:0:59]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:1:0]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:1:0]: Subcomponent com state: O-,C-,R+
+COM+[4:1:0]: End OC_QUERY_STATE Return Value = 0
+COM+[4:1:0]: Start OC_CLEANUP Component = com
+COM+[4:1:0]: Stopping service COM+ System Application...
+COM+[4:1:0]: Memory usage for setup process...
+COM+[4:1:0]: PeakWorkingSetSize: 25500 Kb, WorkingSetSize: 20752 Kb
+COM+[4:1:0]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:1:0]: PeakPagefileUsage: 12108 Kb, PagefileUsage: 12104 Kb
+COM+[4:1:0]: End OC_CLEANUP Return Value = 0
+COM+[4:1:0]: ********************************************************************************
+COM+[4:1:0]: Setup finished - [DATE:11,20,2006 TIME: 04:01 pm]
+COM+[4:1:0]: ********************************************************************************
+COM+[4:1:20]: ********************************************************************************
+COM+[4:1:20]: Setup started - [DATE:11,20,2006 TIME: 04:01 pm]
+COM+[4:1:20]: ********************************************************************************
+COM+[4:1:20]: Start OC_INIT_COMPONENT Component = com
+COM+[4:1:20]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:1:20]: Instantiating CMasterNT5Wks
+COM+[4:1:20]: Memory usage for setup process...
+COM+[4:1:20]: PeakWorkingSetSize: 10776 Kb, WorkingSetSize: 10776 Kb
+COM+[4:1:20]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:1:20]: PeakPagefileUsage: 10124 Kb, PagefileUsage: 9836 Kb
+COM+[4:1:20]: MTSS: Answer File = 
+COM+[4:1:20]: Calling SetupOpenInfFile.
+COM+[4:1:20]: Unable to open Answer File!!
+COM+[4:1:20]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:1:20]: Installed COM product version = 3.0.0.4414
+COM+[4:1:20]: SETUP VERSION = 3.0.0.4414
+COM+[4:1:20]:  Installation Mode = MAINTENANCE
+COM+[4:1:20]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:1:20]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:1:20]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:1:20]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:1:20]: Subcomponent com state: O-,C-,R+
+COM+[4:1:20]: End OC_QUERY_STATE Return Value = 0
+COM+[4:1:21]: Start OC_CLEANUP Component = com
+COM+[4:1:21]: Stopping service COM+ System Application...
+COM+[4:1:21]: Memory usage for setup process...
+COM+[4:1:21]: PeakWorkingSetSize: 25472 Kb, WorkingSetSize: 20728 Kb
+COM+[4:1:21]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:1:21]: PeakPagefileUsage: 12092 Kb, PagefileUsage: 12088 Kb
+COM+[4:1:21]: End OC_CLEANUP Return Value = 0
+COM+[4:1:21]: ********************************************************************************
+COM+[4:1:21]: Setup finished - [DATE:11,20,2006 TIME: 04:01 pm]
+COM+[4:1:21]: ********************************************************************************
+COM+[4:1:43]: ********************************************************************************
+COM+[4:1:43]: Setup started - [DATE:11,20,2006 TIME: 04:01 pm]
+COM+[4:1:43]: ********************************************************************************
+COM+[4:1:43]: Start OC_INIT_COMPONENT Component = com
+COM+[4:1:43]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:1:43]: Instantiating CMasterNT5Wks
+COM+[4:1:43]: Memory usage for setup process...
+COM+[4:1:43]: PeakWorkingSetSize: 10896 Kb, WorkingSetSize: 10896 Kb
+COM+[4:1:43]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:1:43]: PeakPagefileUsage: 10192 Kb, PagefileUsage: 9912 Kb
+COM+[4:1:43]: MTSS: Answer File = 
+COM+[4:1:43]: Calling SetupOpenInfFile.
+COM+[4:1:43]: Unable to open Answer File!!
+COM+[4:1:43]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:1:43]: Installed COM product version = 3.0.0.4414
+COM+[4:1:43]: SETUP VERSION = 3.0.0.4414
+COM+[4:1:43]:  Installation Mode = MAINTENANCE
+COM+[4:1:43]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:1:43]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:1:43]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:1:43]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:1:43]: Subcomponent com state: O-,C-,R+
+COM+[4:1:43]: End OC_QUERY_STATE Return Value = 0
+COM+[4:1:43]: Start OC_CLEANUP Component = com
+COM+[4:1:43]: Stopping service COM+ System Application...
+COM+[4:1:43]: Memory usage for setup process...
+COM+[4:1:43]: PeakWorkingSetSize: 25584 Kb, WorkingSetSize: 20844 Kb
+COM+[4:1:43]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:1:43]: PeakPagefileUsage: 12164 Kb, PagefileUsage: 12160 Kb
+COM+[4:1:43]: End OC_CLEANUP Return Value = 0
+COM+[4:1:43]: ********************************************************************************
+COM+[4:1:43]: Setup finished - [DATE:11,20,2006 TIME: 04:01 pm]
+COM+[4:1:43]: ********************************************************************************
+COM+[4:2:4]: ********************************************************************************
+COM+[4:2:4]: Setup started - [DATE:11,20,2006 TIME: 04:02 pm]
+COM+[4:2:4]: ********************************************************************************
+COM+[4:2:4]: Start OC_INIT_COMPONENT Component = com
+COM+[4:2:4]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:2:4]: Instantiating CMasterNT5Wks
+COM+[4:2:4]: Memory usage for setup process...
+COM+[4:2:4]: PeakWorkingSetSize: 10840 Kb, WorkingSetSize: 10840 Kb
+COM+[4:2:4]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:2:4]: PeakPagefileUsage: 10172 Kb, PagefileUsage: 9912 Kb
+COM+[4:2:4]: MTSS: Answer File = 
+COM+[4:2:4]: Calling SetupOpenInfFile.
+COM+[4:2:4]: Unable to open Answer File!!
+COM+[4:2:4]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:2:4]: Installed COM product version = 3.0.0.4414
+COM+[4:2:4]: SETUP VERSION = 3.0.0.4414
+COM+[4:2:4]:  Installation Mode = MAINTENANCE
+COM+[4:2:4]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:2:4]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:2:4]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:2:4]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:2:4]: Subcomponent com state: O-,C-,R+
+COM+[4:2:4]: End OC_QUERY_STATE Return Value = 0
+COM+[4:2:4]: Start OC_CLEANUP Component = com
+COM+[4:2:4]: Stopping service COM+ System Application...
+COM+[4:2:4]: Memory usage for setup process...
+COM+[4:2:4]: PeakWorkingSetSize: 25540 Kb, WorkingSetSize: 20796 Kb
+COM+[4:2:4]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:2:4]: PeakPagefileUsage: 12156 Kb, PagefileUsage: 12152 Kb
+COM+[4:2:4]: End OC_CLEANUP Return Value = 0
+COM+[4:2:4]: ********************************************************************************
+COM+[4:2:4]: Setup finished - [DATE:11,20,2006 TIME: 04:02 pm]
+COM+[4:2:4]: ********************************************************************************
+COM+[4:2:25]: ********************************************************************************
+COM+[4:2:25]: Setup started - [DATE:11,20,2006 TIME: 04:02 pm]
+COM+[4:2:25]: ********************************************************************************
+COM+[4:2:25]: Start OC_INIT_COMPONENT Component = com
+COM+[4:2:25]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:2:25]: Instantiating CMasterNT5Wks
+COM+[4:2:25]: Memory usage for setup process...
+COM+[4:2:25]: PeakWorkingSetSize: 10856 Kb, WorkingSetSize: 10856 Kb
+COM+[4:2:25]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:2:25]: PeakPagefileUsage: 10136 Kb, PagefileUsage: 9916 Kb
+COM+[4:2:25]: MTSS: Answer File = 
+COM+[4:2:25]: Calling SetupOpenInfFile.
+COM+[4:2:25]: Unable to open Answer File!!
+COM+[4:2:25]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:2:25]: Installed COM product version = 3.0.0.4414
+COM+[4:2:25]: SETUP VERSION = 3.0.0.4414
+COM+[4:2:25]:  Installation Mode = MAINTENANCE
+COM+[4:2:25]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:2:25]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:2:25]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:2:25]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:2:25]: Subcomponent com state: O-,C-,R+
+COM+[4:2:25]: End OC_QUERY_STATE Return Value = 0
+COM+[4:2:25]: Start OC_CLEANUP Component = com
+COM+[4:2:25]: Stopping service COM+ System Application...
+COM+[4:2:25]: Memory usage for setup process...
+COM+[4:2:25]: PeakWorkingSetSize: 25556 Kb, WorkingSetSize: 20812 Kb
+COM+[4:2:25]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:2:25]: PeakPagefileUsage: 12168 Kb, PagefileUsage: 12164 Kb
+COM+[4:2:25]: End OC_CLEANUP Return Value = 0
+COM+[4:2:25]: ********************************************************************************
+COM+[4:2:25]: Setup finished - [DATE:11,20,2006 TIME: 04:02 pm]
+COM+[4:2:25]: ********************************************************************************
+COM+[4:2:46]: ********************************************************************************
+COM+[4:2:46]: Setup started - [DATE:11,20,2006 TIME: 04:02 pm]
+COM+[4:2:46]: ********************************************************************************
+COM+[4:2:46]: Start OC_INIT_COMPONENT Component = com
+COM+[4:2:46]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:2:46]: Instantiating CMasterNT5Wks
+COM+[4:2:46]: Memory usage for setup process...
+COM+[4:2:46]: PeakWorkingSetSize: 10864 Kb, WorkingSetSize: 10864 Kb
+COM+[4:2:46]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:2:46]: PeakPagefileUsage: 10232 Kb, PagefileUsage: 9916 Kb
+COM+[4:2:46]: MTSS: Answer File = 
+COM+[4:2:46]: Calling SetupOpenInfFile.
+COM+[4:2:46]: Unable to open Answer File!!
+COM+[4:2:46]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:2:46]: Installed COM product version = 3.0.0.4414
+COM+[4:2:46]: SETUP VERSION = 3.0.0.4414
+COM+[4:2:46]:  Installation Mode = MAINTENANCE
+COM+[4:2:46]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:2:46]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:2:46]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:2:46]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:2:46]: Subcomponent com state: O-,C-,R+
+COM+[4:2:46]: End OC_QUERY_STATE Return Value = 0
+COM+[4:2:47]: Start OC_CLEANUP Component = com
+COM+[4:2:47]: Stopping service COM+ System Application...
+COM+[4:2:47]: Memory usage for setup process...
+COM+[4:2:47]: PeakWorkingSetSize: 25576 Kb, WorkingSetSize: 20832 Kb
+COM+[4:2:47]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:2:47]: PeakPagefileUsage: 12188 Kb, PagefileUsage: 12184 Kb
+COM+[4:2:47]: End OC_CLEANUP Return Value = 0
+COM+[4:2:47]: ********************************************************************************
+COM+[4:2:47]: Setup finished - [DATE:11,20,2006 TIME: 04:02 pm]
+COM+[4:2:47]: ********************************************************************************
+COM+[4:3:9]: ********************************************************************************
+COM+[4:3:9]: Setup started - [DATE:11,20,2006 TIME: 04:03 pm]
+COM+[4:3:9]: ********************************************************************************
+COM+[4:3:9]: Start OC_INIT_COMPONENT Component = com
+COM+[4:3:9]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:3:9]: Instantiating CMasterNT5Wks
+COM+[4:3:9]: Memory usage for setup process...
+COM+[4:3:9]: PeakWorkingSetSize: 19960 Kb, WorkingSetSize: 11080 Kb
+COM+[4:3:9]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:3:9]: PeakPagefileUsage: 13092 Kb, PagefileUsage: 10096 Kb
+COM+[4:3:9]: MTSS: Answer File = 
+COM+[4:3:9]: Calling SetupOpenInfFile.
+COM+[4:3:9]: Unable to open Answer File!!
+COM+[4:3:9]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:3:9]: Installed COM product version = 3.0.0.4414
+COM+[4:3:9]: SETUP VERSION = 3.0.0.4414
+COM+[4:3:9]:  Installation Mode = MAINTENANCE
+COM+[4:3:9]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:3:9]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:3:9]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:3:9]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:3:9]: Subcomponent com state: O-,C-,R+
+COM+[4:3:9]: End OC_QUERY_STATE Return Value = 0
+COM+[4:3:9]: Start OC_CLEANUP Component = com
+COM+[4:3:9]: Stopping service COM+ System Application...
+COM+[4:3:9]: Memory usage for setup process...
+COM+[4:3:9]: PeakWorkingSetSize: 25684 Kb, WorkingSetSize: 20932 Kb
+COM+[4:3:9]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:3:9]: PeakPagefileUsage: 13092 Kb, PagefileUsage: 12260 Kb
+COM+[4:3:9]: End OC_CLEANUP Return Value = 0
+COM+[4:3:9]: ********************************************************************************
+COM+[4:3:9]: Setup finished - [DATE:11,20,2006 TIME: 04:03 pm]
+COM+[4:3:9]: ********************************************************************************
+COM+[4:3:29]: ********************************************************************************
+COM+[4:3:29]: Setup started - [DATE:11,20,2006 TIME: 04:03 pm]
+COM+[4:3:29]: ********************************************************************************
+COM+[4:3:29]: Start OC_INIT_COMPONENT Component = com
+COM+[4:3:29]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:3:29]: Instantiating CMasterNT5Wks
+COM+[4:3:29]: Memory usage for setup process...
+COM+[4:3:29]: PeakWorkingSetSize: 10860 Kb, WorkingSetSize: 10860 Kb
+COM+[4:3:29]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:3:29]: PeakPagefileUsage: 10152 Kb, PagefileUsage: 9928 Kb
+COM+[4:3:29]: MTSS: Answer File = 
+COM+[4:3:29]: Calling SetupOpenInfFile.
+COM+[4:3:29]: Unable to open Answer File!!
+COM+[4:3:29]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:3:29]: Installed COM product version = 3.0.0.4414
+COM+[4:3:29]: SETUP VERSION = 3.0.0.4414
+COM+[4:3:29]:  Installation Mode = MAINTENANCE
+COM+[4:3:29]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:3:29]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:3:29]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:3:29]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:3:29]: Subcomponent com state: O-,C-,R+
+COM+[4:3:29]: End OC_QUERY_STATE Return Value = 0
+COM+[4:3:29]: Start OC_CLEANUP Component = com
+COM+[4:3:29]: Stopping service COM+ System Application...
+COM+[4:3:29]: Memory usage for setup process...
+COM+[4:3:29]: PeakWorkingSetSize: 25580 Kb, WorkingSetSize: 20836 Kb
+COM+[4:3:29]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:3:30]: PeakPagefileUsage: 12220 Kb, PagefileUsage: 12216 Kb
+COM+[4:3:30]: End OC_CLEANUP Return Value = 0
+COM+[4:3:30]: ********************************************************************************
+COM+[4:3:30]: Setup finished - [DATE:11,20,2006 TIME: 04:03 pm]
+COM+[4:3:30]: ********************************************************************************
+COM+[4:3:50]: ********************************************************************************
+COM+[4:3:50]: Setup started - [DATE:11,20,2006 TIME: 04:03 pm]
+COM+[4:3:50]: ********************************************************************************
+COM+[4:3:50]: Start OC_INIT_COMPONENT Component = com
+COM+[4:3:50]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:3:50]: Instantiating CMasterNT5Wks
+COM+[4:3:50]: Memory usage for setup process...
+COM+[4:3:50]: PeakWorkingSetSize: 10848 Kb, WorkingSetSize: 10848 Kb
+COM+[4:3:50]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:3:50]: PeakPagefileUsage: 10140 Kb, PagefileUsage: 9920 Kb
+COM+[4:3:50]: MTSS: Answer File = 
+COM+[4:3:50]: Calling SetupOpenInfFile.
+COM+[4:3:50]: Unable to open Answer File!!
+COM+[4:3:50]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:3:50]: Installed COM product version = 3.0.0.4414
+COM+[4:3:50]: SETUP VERSION = 3.0.0.4414
+COM+[4:3:50]:  Installation Mode = MAINTENANCE
+COM+[4:3:50]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:3:50]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:3:50]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:3:50]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:3:50]: Subcomponent com state: O-,C-,R+
+COM+[4:3:50]: End OC_QUERY_STATE Return Value = 0
+COM+[4:3:51]: Start OC_CLEANUP Component = com
+COM+[4:3:51]: Stopping service COM+ System Application...
+COM+[4:3:51]: Memory usage for setup process...
+COM+[4:3:51]: PeakWorkingSetSize: 25556 Kb, WorkingSetSize: 20812 Kb
+COM+[4:3:51]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:3:51]: PeakPagefileUsage: 12192 Kb, PagefileUsage: 12188 Kb
+COM+[4:3:51]: End OC_CLEANUP Return Value = 0
+COM+[4:3:51]: ********************************************************************************
+COM+[4:3:51]: Setup finished - [DATE:11,20,2006 TIME: 04:03 pm]
+COM+[4:3:51]: ********************************************************************************
+COM+[4:4:12]: ********************************************************************************
+COM+[4:4:12]: Setup started - [DATE:11,20,2006 TIME: 04:04 pm]
+COM+[4:4:12]: ********************************************************************************
+COM+[4:4:12]: Start OC_INIT_COMPONENT Component = com
+COM+[4:4:12]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:4:12]: Instantiating CMasterNT5Wks
+COM+[4:4:12]: Memory usage for setup process...
+COM+[4:4:12]: PeakWorkingSetSize: 10976 Kb, WorkingSetSize: 10976 Kb
+COM+[4:4:12]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:4:12]: PeakPagefileUsage: 10272 Kb, PagefileUsage: 9996 Kb
+COM+[4:4:12]: MTSS: Answer File = 
+COM+[4:4:12]: Calling SetupOpenInfFile.
+COM+[4:4:12]: Unable to open Answer File!!
+COM+[4:4:12]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:4:12]: Installed COM product version = 3.0.0.4414
+COM+[4:4:12]: SETUP VERSION = 3.0.0.4414
+COM+[4:4:12]:  Installation Mode = MAINTENANCE
+COM+[4:4:12]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:4:12]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:4:12]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:4:12]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:4:12]: Subcomponent com state: O-,C-,R+
+COM+[4:4:12]: End OC_QUERY_STATE Return Value = 0
+COM+[4:4:12]: Start OC_CLEANUP Component = com
+COM+[4:4:12]: Stopping service COM+ System Application...
+COM+[4:4:12]: Memory usage for setup process...
+COM+[4:4:12]: PeakWorkingSetSize: 25688 Kb, WorkingSetSize: 20940 Kb
+COM+[4:4:12]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:4:12]: PeakPagefileUsage: 12252 Kb, PagefileUsage: 12248 Kb
+COM+[4:4:12]: End OC_CLEANUP Return Value = 0
+COM+[4:4:13]: ********************************************************************************
+COM+[4:4:13]: Setup finished - [DATE:11,20,2006 TIME: 04:04 pm]
+COM+[4:4:13]: ********************************************************************************
+COM+[4:4:33]: ********************************************************************************
+COM+[4:4:33]: Setup started - [DATE:11,20,2006 TIME: 04:04 pm]
+COM+[4:4:33]: ********************************************************************************
+COM+[4:4:33]: Start OC_INIT_COMPONENT Component = com
+COM+[4:4:33]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:4:33]: Instantiating CMasterNT5Wks
+COM+[4:4:33]: Memory usage for setup process...
+COM+[4:4:33]: PeakWorkingSetSize: 11928 Kb, WorkingSetSize: 11928 Kb
+COM+[4:4:33]: QuotaPeakPagedPoolUsage: 50 Kb, QuotaPagedPoolUsage: 50 Kb
+COM+[4:4:33]: PeakPagefileUsage: 10716 Kb, PagefileUsage: 10496 Kb
+COM+[4:4:33]: MTSS: Answer File = 
+COM+[4:4:33]: Calling SetupOpenInfFile.
+COM+[4:4:33]: Unable to open Answer File!!
+COM+[4:4:33]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:4:33]: Installed COM product version = 3.0.0.4414
+COM+[4:4:33]: SETUP VERSION = 3.0.0.4414
+COM+[4:4:33]:  Installation Mode = MAINTENANCE
+COM+[4:4:33]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:4:33]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:4:33]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:4:34]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:4:34]: Subcomponent com state: O-,C-,R+
+COM+[4:4:34]: End OC_QUERY_STATE Return Value = 0
+COM+[4:4:34]: Start OC_CLEANUP Component = com
+COM+[4:4:34]: Stopping service COM+ System Application...
+COM+[4:4:34]: Memory usage for setup process...
+COM+[4:4:34]: PeakWorkingSetSize: 26584 Kb, WorkingSetSize: 21840 Kb
+COM+[4:4:34]: QuotaPeakPagedPoolUsage: 74 Kb, QuotaPagedPoolUsage: 67 Kb
+COM+[4:4:34]: PeakPagefileUsage: 12712 Kb, PagefileUsage: 12708 Kb
+COM+[4:4:34]: End OC_CLEANUP Return Value = 0
+COM+[4:4:34]: ********************************************************************************
+COM+[4:4:34]: Setup finished - [DATE:11,20,2006 TIME: 04:04 pm]
+COM+[4:4:34]: ********************************************************************************
+COM+[4:4:55]: ********************************************************************************
+COM+[4:4:55]: Setup started - [DATE:11,20,2006 TIME: 04:04 pm]
+COM+[4:4:55]: ********************************************************************************
+COM+[4:4:55]: Start OC_INIT_COMPONENT Component = com
+COM+[4:4:55]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:4:55]: Instantiating CMasterNT5Wks
+COM+[4:4:55]: Memory usage for setup process...
+COM+[4:4:55]: PeakWorkingSetSize: 10956 Kb, WorkingSetSize: 10956 Kb
+COM+[4:4:55]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:4:55]: PeakPagefileUsage: 10228 Kb, PagefileUsage: 9988 Kb
+COM+[4:4:55]: MTSS: Answer File = 
+COM+[4:4:55]: Calling SetupOpenInfFile.
+COM+[4:4:55]: Unable to open Answer File!!
+COM+[4:4:55]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:4:55]: Installed COM product version = 3.0.0.4414
+COM+[4:4:55]: SETUP VERSION = 3.0.0.4414
+COM+[4:4:55]:  Installation Mode = MAINTENANCE
+COM+[4:4:55]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:4:55]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:4:55]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:4:55]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:4:55]: Subcomponent com state: O-,C-,R+
+COM+[4:4:55]: End OC_QUERY_STATE Return Value = 0
+COM+[4:4:55]: Start OC_CLEANUP Component = com
+COM+[4:4:55]: Stopping service COM+ System Application...
+COM+[4:4:55]: Memory usage for setup process...
+COM+[4:4:55]: PeakWorkingSetSize: 25672 Kb, WorkingSetSize: 20928 Kb
+COM+[4:4:55]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:4:55]: PeakPagefileUsage: 12272 Kb, PagefileUsage: 12268 Kb
+COM+[4:4:55]: End OC_CLEANUP Return Value = 0
+COM+[4:4:55]: ********************************************************************************
+COM+[4:4:55]: Setup finished - [DATE:11,20,2006 TIME: 04:04 pm]
+COM+[4:4:55]: ********************************************************************************
+COM+[4:5:16]: ********************************************************************************
+COM+[4:5:16]: Setup started - [DATE:11,20,2006 TIME: 04:05 pm]
+COM+[4:5:16]: ********************************************************************************
+COM+[4:5:16]: Start OC_INIT_COMPONENT Component = com
+COM+[4:5:16]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:5:16]: Instantiating CMasterNT5Wks
+COM+[4:5:16]: Memory usage for setup process...
+COM+[4:5:16]: PeakWorkingSetSize: 11016 Kb, WorkingSetSize: 11016 Kb
+COM+[4:5:16]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:5:16]: PeakPagefileUsage: 10328 Kb, PagefileUsage: 10032 Kb
+COM+[4:5:16]: MTSS: Answer File = 
+COM+[4:5:16]: Calling SetupOpenInfFile.
+COM+[4:5:16]: Unable to open Answer File!!
+COM+[4:5:16]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:5:16]: Installed COM product version = 3.0.0.4414
+COM+[4:5:16]: SETUP VERSION = 3.0.0.4414
+COM+[4:5:16]:  Installation Mode = MAINTENANCE
+COM+[4:5:16]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:5:16]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:5:16]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:5:16]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:5:16]: Subcomponent com state: O-,C-,R+
+COM+[4:5:16]: End OC_QUERY_STATE Return Value = 0
+COM+[4:5:17]: Start OC_CLEANUP Component = com
+COM+[4:5:17]: Stopping service COM+ System Application...
+COM+[4:5:17]: Memory usage for setup process...
+COM+[4:5:17]: PeakWorkingSetSize: 25704 Kb, WorkingSetSize: 20960 Kb
+COM+[4:5:17]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:5:17]: PeakPagefileUsage: 12284 Kb, PagefileUsage: 12280 Kb
+COM+[4:5:17]: End OC_CLEANUP Return Value = 0
+COM+[4:5:17]: ********************************************************************************
+COM+[4:5:17]: Setup finished - [DATE:11,20,2006 TIME: 04:05 pm]
+COM+[4:5:17]: ********************************************************************************
+COM+[4:16:21]: ********************************************************************************
+COM+[4:16:21]: Setup started - [DATE:11,20,2006 TIME: 04:16 pm]
+COM+[4:16:21]: ********************************************************************************
+COM+[4:16:21]: Start OC_INIT_COMPONENT Component = com
+COM+[4:16:21]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:16:21]: Instantiating CMasterNT5Wks
+COM+[4:16:21]: Memory usage for setup process...
+COM+[4:16:21]: PeakWorkingSetSize: 11064 Kb, WorkingSetSize: 11064 Kb
+COM+[4:16:21]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:16:21]: PeakPagefileUsage: 10324 Kb, PagefileUsage: 10084 Kb
+COM+[4:16:21]: MTSS: Answer File = 
+COM+[4:16:21]: Calling SetupOpenInfFile.
+COM+[4:16:21]: Unable to open Answer File!!
+COM+[4:16:21]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:16:21]: Installed COM product version = 3.0.0.4414
+COM+[4:16:21]: SETUP VERSION = 3.0.0.4414
+COM+[4:16:21]:  Installation Mode = MAINTENANCE
+COM+[4:16:21]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:16:21]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:16:21]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:16:21]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:16:21]: Subcomponent com state: O-,C-,R+
+COM+[4:16:21]: End OC_QUERY_STATE Return Value = 0
+COM+[4:16:21]: Start OC_CLEANUP Component = com
+COM+[4:16:21]: Stopping service COM+ System Application...
+COM+[4:16:22]: Memory usage for setup process...
+COM+[4:16:22]: PeakWorkingSetSize: 25780 Kb, WorkingSetSize: 21040 Kb
+COM+[4:16:22]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:16:22]: PeakPagefileUsage: 12360 Kb, PagefileUsage: 12356 Kb
+COM+[4:16:22]: End OC_CLEANUP Return Value = 0
+COM+[4:16:22]: ********************************************************************************
+COM+[4:16:22]: Setup finished - [DATE:11,20,2006 TIME: 04:16 pm]
+COM+[4:16:22]: ********************************************************************************
+COM+[4:16:42]: ********************************************************************************
+COM+[4:16:42]: Setup started - [DATE:11,20,2006 TIME: 04:16 pm]
+COM+[4:16:42]: ********************************************************************************
+COM+[4:16:42]: Start OC_INIT_COMPONENT Component = com
+COM+[4:16:42]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:16:42]: Instantiating CMasterNT5Wks
+COM+[4:16:42]: Memory usage for setup process...
+COM+[4:16:42]: PeakWorkingSetSize: 11040 Kb, WorkingSetSize: 11040 Kb
+COM+[4:16:42]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:16:42]: PeakPagefileUsage: 10312 Kb, PagefileUsage: 10108 Kb
+COM+[4:16:42]: MTSS: Answer File = 
+COM+[4:16:42]: Calling SetupOpenInfFile.
+COM+[4:16:42]: Unable to open Answer File!!
+COM+[4:16:42]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:16:42]: Installed COM product version = 3.0.0.4414
+COM+[4:16:42]: SETUP VERSION = 3.0.0.4414
+COM+[4:16:42]:  Installation Mode = MAINTENANCE
+COM+[4:16:42]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:16:42]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:16:42]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:16:42]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:16:42]: Subcomponent com state: O-,C-,R+
+COM+[4:16:42]: End OC_QUERY_STATE Return Value = 0
+COM+[4:16:43]: Start OC_CLEANUP Component = com
+COM+[4:16:43]: Stopping service COM+ System Application...
+COM+[4:16:43]: Memory usage for setup process...
+COM+[4:16:43]: PeakWorkingSetSize: 25740 Kb, WorkingSetSize: 21000 Kb
+COM+[4:16:43]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:16:43]: PeakPagefileUsage: 12384 Kb, PagefileUsage: 12380 Kb
+COM+[4:16:43]: End OC_CLEANUP Return Value = 0
+COM+[4:16:43]: ********************************************************************************
+COM+[4:16:43]: Setup finished - [DATE:11,20,2006 TIME: 04:16 pm]
+COM+[4:16:43]: ********************************************************************************
+COM+[4:17:3]: ********************************************************************************
+COM+[4:17:3]: Setup started - [DATE:11,20,2006 TIME: 04:17 pm]
+COM+[4:17:3]: ********************************************************************************
+COM+[4:17:3]: Start OC_INIT_COMPONENT Component = com
+COM+[4:17:3]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:17:3]: Instantiating CMasterNT5Wks
+COM+[4:17:3]: Memory usage for setup process...
+COM+[4:17:3]: PeakWorkingSetSize: 11104 Kb, WorkingSetSize: 11104 Kb
+COM+[4:17:3]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:17:3]: PeakPagefileUsage: 10348 Kb, PagefileUsage: 10124 Kb
+COM+[4:17:3]: MTSS: Answer File = 
+COM+[4:17:3]: Calling SetupOpenInfFile.
+COM+[4:17:3]: Unable to open Answer File!!
+COM+[4:17:3]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:17:3]: Installed COM product version = 3.0.0.4414
+COM+[4:17:3]: SETUP VERSION = 3.0.0.4414
+COM+[4:17:3]:  Installation Mode = MAINTENANCE
+COM+[4:17:3]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:17:3]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:17:3]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:17:3]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:17:3]: Subcomponent com state: O-,C-,R+
+COM+[4:17:3]: End OC_QUERY_STATE Return Value = 0
+COM+[4:17:3]: Start OC_CLEANUP Component = com
+COM+[4:17:3]: Stopping service COM+ System Application...
+COM+[4:17:3]: Memory usage for setup process...
+COM+[4:17:3]: PeakWorkingSetSize: 25808 Kb, WorkingSetSize: 21064 Kb
+COM+[4:17:3]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:17:3]: PeakPagefileUsage: 12384 Kb, PagefileUsage: 12380 Kb
+COM+[4:17:3]: End OC_CLEANUP Return Value = 0
+COM+[4:17:3]: ********************************************************************************
+COM+[4:17:3]: Setup finished - [DATE:11,20,2006 TIME: 04:17 pm]
+COM+[4:17:3]: ********************************************************************************
+COM+[4:17:38]: ********************************************************************************
+COM+[4:17:38]: Setup started - [DATE:11,20,2006 TIME: 04:17 pm]
+COM+[4:17:38]: ********************************************************************************
+COM+[4:17:38]: Start OC_INIT_COMPONENT Component = com
+COM+[4:17:38]: INF VERSION (com) = 2001,12,4414,42
+COM+[4:17:38]: Instantiating CMasterNT5Wks
+COM+[4:17:38]: Memory usage for setup process...
+COM+[4:17:38]: PeakWorkingSetSize: 11912 Kb, WorkingSetSize: 11912 Kb
+COM+[4:17:38]: QuotaPeakPagedPoolUsage: 49 Kb, QuotaPagedPoolUsage: 49 Kb
+COM+[4:17:38]: PeakPagefileUsage: 11116 Kb, PagefileUsage: 10880 Kb
+COM+[4:17:38]: MTSS: Answer File = 
+COM+[4:17:38]: Calling SetupOpenInfFile.
+COM+[4:17:38]: Unable to open Answer File!!
+COM+[4:17:38]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[4:17:38]: Installed COM product version = 3.0.0.4414
+COM+[4:17:38]: SETUP VERSION = 3.0.0.4414
+COM+[4:17:38]:  Installation Mode = MAINTENANCE
+COM+[4:17:38]:  Maintnenance Mode = ADD_REMOVE
+COM+[4:17:38]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[4:17:38]: End OC_INIT_COMPONENT Return Value = 0
+COM+[4:17:38]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[4:17:38]: Subcomponent com state: O-,C-,R+
+COM+[4:17:38]: End OC_QUERY_STATE Return Value = 0
+COM+[4:17:38]: Start OC_CLEANUP Component = com
+COM+[4:17:38]: Stopping service COM+ System Application...
+COM+[4:17:38]: Memory usage for setup process...
+COM+[4:17:38]: PeakWorkingSetSize: 26592 Kb, WorkingSetSize: 21844 Kb
+COM+[4:17:38]: QuotaPeakPagedPoolUsage: 73 Kb, QuotaPagedPoolUsage: 66 Kb
+COM+[4:17:38]: PeakPagefileUsage: 13120 Kb, PagefileUsage: 13116 Kb
+COM+[4:17:38]: End OC_CLEANUP Return Value = 0
+COM+[4:17:39]: ********************************************************************************
+COM+[4:17:39]: Setup finished - [DATE:11,20,2006 TIME: 04:17 pm]
+COM+[4:17:39]: ********************************************************************************
+COM+[8:10:12]: ********************************************************************************
+COM+[8:10:12]: Setup started - [DATE:11,20,2006 TIME: 08:10 pm]
+COM+[8:10:12]: ********************************************************************************
+COM+[8:10:12]: Start OC_INIT_COMPONENT Component = com
+COM+[8:10:12]: INF VERSION (com) = 2001,12,4414,42
+COM+[8:10:12]: Instantiating CMasterNT5Wks
+COM+[8:10:12]: Memory usage for setup process...
+COM+[8:10:12]: PeakWorkingSetSize: 7452 Kb, WorkingSetSize: 7452 Kb
+COM+[8:10:12]: QuotaPeakPagedPoolUsage: 42 Kb, QuotaPagedPoolUsage: 42 Kb
+COM+[8:10:12]: PeakPagefileUsage: 3596 Kb, PagefileUsage: 3532 Kb
+COM+[8:10:12]: MTSS: Answer File = 
+COM+[8:10:12]: Calling SetupOpenInfFile.
+COM+[8:10:12]: Unable to open Answer File!!
+COM+[8:10:12]: DRID-39104  -> Path: C:\WINDOWS\Java\Trustlib\
+COM+[8:10:12]: Installed COM product version = 3.0.0.4414
+COM+[8:10:12]: SETUP VERSION = 3.0.0.4414
+COM+[8:10:12]:  Installation Mode = MAINTENANCE
+COM+[8:10:12]:  Maintnenance Mode = ADD_REMOVE
+COM+[8:10:12]: DRID-39103  -> Path: C:\Program Files\Common Files\ODBC\Data Sources\
+COM+[8:10:12]: End OC_INIT_COMPONENT Return Value = 0
+COM+[8:10:13]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[8:10:13]: Subcomponent com state: O-,C-,R+
+COM+[8:10:13]: End OC_QUERY_STATE Return Value = 0
+COM+[8:10:14]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[8:10:14]: End OC_QUERY_STATE Return Value = 1
+COM+[8:10:14]: Start OC_QUERY_CHANGE_SEL_STATE Component = com Subcomponent = com
+COM+[8:10:14]: Subcomponent com state: O+,C+,R+
+COM+[8:10:14]: End OC_QUERY_CHANGE_SEL_STATE Return Value = 1
+COM+[8:10:14]: Start OC_CALC_DISK_SPACE Component = com Subcomponent = com
+COM+[8:10:14]: End OC_CALC_DISK_SPACE Return Value = 0
+COM+[8:10:48]: Start OC_QUEUE_FILE_OPS Component = com Subcomponent = 
+COM+[8:10:48]: End OC_QUEUE_FILE_OPS Return Value = 0
+COM+[8:10:48]: Start OC_QUEUE_FILE_OPS Component = com Subcomponent = com
+COM+[8:10:48]: Subcomponent com state: O+,C+,R+
+COM+[8:10:48]: DRID-39105  -> Path: C:\Documents and Settings\All Users\Start Menu\Programs\
+COM+[8:10:48]: End OC_QUEUE_FILE_OPS Return Value = 0
+COM+[8:10:49]: Start OC_QUERY_STEP_COUNT Component = com Subcomponent = 
+COM+[8:10:49]: End OC_QUERY_STEP_COUNT Return Value = 0
+COM+[8:10:49]: Start OC_QUERY_STEP_COUNT Component = com Subcomponent = com
+COM+[8:10:49]: End OC_QUERY_STEP_COUNT Return Value = 0
+COM+[8:10:49]: Start OC_ABOUT_TO_COMMIT_QUEUE Component = com Subcomponent = 
+COM+[8:10:49]: No PendingFileRenameOperations
+COM+[8:10:49]: End OC_ABOUT_TO_COMMIT_QUEUE Return Value = 0
+COM+[8:10:49]: Start OC_ABOUT_TO_COMMIT_QUEUE Component = com Subcomponent = com
+COM+[8:10:49]: Subcomponent com state: O+,C+,R+
+COM+[8:10:49]: End OC_ABOUT_TO_COMMIT_QUEUE Return Value = 0
+COM+[8:11:1]: Start OC_COMPLETE_INSTALLATION Component = com Subcomponent = 
+COM+[8:11:1]: No PendingFileRenameOperations
+COM+[8:11:1]: End OC_COMPLETE_INSTALLATION Return Value = 0
+COM+[8:11:2]: Start OC_COMPLETE_INSTALLATION Component = com Subcomponent = com
+COM+[8:11:2]: COM+ Successfully Activated
+COM+[8:11:2]: Subcomponent com state: O+,C+,R+
+COM+[8:11:2]: End OC_COMPLETE_INSTALLATION Return Value = 0
+COM+[8:11:2]: Start OC_QUERY_STATEComponent = com Subcomponent = com
+COM+[8:11:2]: Subcomponent com state: O+,C+,R+
+COM+[8:11:2]: End OC_QUERY_STATE Return Value = 0
+COM+[8:11:6]: Start OC_CLEANUP Component = com
+COM+[8:11:6]: Stopping service COM+ System Application...
+COM+[8:11:6]: Memory usage for setup process...
+COM+[8:11:6]: PeakWorkingSetSize: 33772 Kb, WorkingSetSize: 27624 Kb
+COM+[8:11:6]: QuotaPeakPagedPoolUsage: 72 Kb, QuotaPagedPoolUsage: 63 Kb
+COM+[8:11:6]: PeakPagefileUsage: 9380 Kb, PagefileUsage: 7964 Kb
+COM+[8:11:6]: End OC_CLEANUP Return Value = 0
+COM+[8:11:6]: ********************************************************************************
+COM+[8:11:6]: Setup finished - [DATE:11,20,2006 TIME: 08:11 pm]
+COM+[8:11:6]: ********************************************************************************

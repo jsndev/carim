@@ -1,0 +1,16 @@
+[Banco de Dados]
+BOLETO_DBTYPE=mysql
+BOLETO_DBHOST=192.168.8.18
+BOLETO_DBNAME=athos
+BOLETO_DBUSER=athos
+BOLETO_DBPASS=teste123
+
+[Admin Geral]
+BOLETO_SISTEMA=banco
+SENHA_MESTRE=5f4dcc3b5aa765d61d8327deb882cf99
+PALAVRA_SECRETA=7h9234hdfqd1ofh28ieujhod
+URL_PROJETO=http://phpboleto.org
+VERSAO=Versão 2.0 beta3
+TEMPO_MAXIMO_LOGIN=1200
+TITULO_ADMIN_NORMAL=phpBoleto - Interface de Administração
+ERRO_SENHA_INCORRETA=Erro: Senha incorreta

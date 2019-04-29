@@ -1,0 +1,14 @@
+
+Essa é a lista de idéias para a nova versão do phpBoleto :
+
+- Criar os layouts para os seguintes bancos:
+    - Itaú
+    - HSBC
+    - Banestes
+    - BCN (Maurício Vivas implementou a classe)
+
+- Adicionar a opção de usar XML-RPC nas chamadas ao phpBoleto, para que
+  usuários remotos possam gerar boletos sem precisar instalar nada. Seria
+  necessário para isso uma documentação extensiva em como fazer as chamadas
+  remotas ao phpBoleto ;
+

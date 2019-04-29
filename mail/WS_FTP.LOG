@@ -1,0 +1,45 @@
+2008.09.18 21:59 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\ChangeLog.txt <-- inrise /httpdocs/emailmkt/mail ChangeLog.txt
+2008.09.18 21:59 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\class.phpmailer.php <-- inrise /httpdocs/emailmkt/mail class.phpmailer.php
+2008.09.18 22:00 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\class.pop3.php <-- inrise /httpdocs/emailmkt/mail class.pop3.php
+2008.09.18 22:00 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\class.smtp.php <-- inrise /httpdocs/emailmkt/mail class.smtp.php
+2008.09.18 22:00 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\codeworxtech.html <-- inrise /httpdocs/emailmkt/mail codeworxtech.html
+2008.09.18 22:00 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\LICENSE <-- inrise /httpdocs/emailmkt/mail LICENSE
+2008.09.18 22:00 B C:\Arquivos de programas\EasyPHP 2.0b1\www\emailmkt\mail\README <-- inrise /httpdocs/emailmkt/mail README
+108.10.01 15:12 B U:\teste\mail\ChangeLog.txt --> 200.219.198.42 /var/www/cohab/teste/mail ChangeLog.txt
+108.10.01 15:12 B U:\teste\mail\class.phpmailer.php --> 200.219.198.42 /var/www/cohab/teste/mail class.phpmailer.php
+108.10.01 15:12 B U:\teste\mail\class.pop3.php --> 200.219.198.42 /var/www/cohab/teste/mail class.pop3.php
+108.10.01 15:12 B U:\teste\mail\class.smtp.php --> 200.219.198.42 /var/www/cohab/teste/mail class.smtp.php
+108.10.01 15:12 B U:\teste\mail\codeworxtech.html --> 200.219.198.42 /var/www/cohab/teste/mail codeworxtech.html
+108.10.01 15:12 B U:\teste\mail\LICENSE --> 200.219.198.42 /var/www/cohab/teste/mail LICENSE
+108.10.01 15:12 B U:\teste\mail\README --> 200.219.198.42 /var/www/cohab/teste/mail README
+108.10.01 15:12 B U:\teste\mail\WS_FTP.LOG --> 200.219.198.42 /var/www/cohab/teste/mail WS_FTP.LOG
+108.10.01 15:51 B U:\cspc\mail\ChangeLog.txt --> 200.219.198.42 /var/www/cspc/mail ChangeLog.txt
+108.10.01 15:51 B U:\cspc\mail\class.phpmailer.php --> 200.219.198.42 /var/www/cspc/mail class.phpmailer.php
+108.10.01 15:51 B U:\cspc\mail\class.pop3.php --> 200.219.198.42 /var/www/cspc/mail class.pop3.php
+108.10.01 15:51 B U:\cspc\mail\class.smtp.php --> 200.219.198.42 /var/www/cspc/mail class.smtp.php
+108.10.01 15:51 B U:\cspc\mail\codeworxtech.html --> 200.219.198.42 /var/www/cspc/mail codeworxtech.html
+108.10.01 15:51 B U:\cspc\mail\LICENSE --> 200.219.198.42 /var/www/cspc/mail LICENSE
+108.10.01 15:51 B U:\cspc\mail\README --> 200.219.198.42 /var/www/cspc/mail README
+108.10.01 15:51 B U:\cspc\mail\WS_FTP.LOG --> 200.219.198.42 /var/www/cspc/mail WS_FTP.LOG
+108.10.01 16:30 B U:\cspc\mail\ChangeLog.txt --> 200.219.198.42 /var/www/emccamp/mail ChangeLog.txt
+108.10.01 16:30 B U:\cspc\mail\class.phpmailer.php --> 200.219.198.42 /var/www/emccamp/mail class.phpmailer.php
+108.10.01 16:30 B U:\cspc\mail\class.pop3.php --> 200.219.198.42 /var/www/emccamp/mail class.pop3.php
+108.10.01 16:30 B U:\cspc\mail\class.smtp.php --> 200.219.198.42 /var/www/emccamp/mail class.smtp.php
+108.10.01 16:30 B U:\cspc\mail\codeworxtech.html --> 200.219.198.42 /var/www/emccamp/mail codeworxtech.html
+108.10.01 16:30 B U:\cspc\mail\LICENSE --> 200.219.198.42 /var/www/emccamp/mail LICENSE
+108.10.01 16:30 B U:\cspc\mail\README --> 200.219.198.42 /var/www/emccamp/mail README
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\ChangeLog.txt --> 200.195.197.138 /sgprevi/mail ChangeLog.txt
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\class.phpmailer.php --> 200.195.197.138 /sgprevi/mail class.phpmailer.php
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\class.pop3.php --> 200.195.197.138 /sgprevi/mail class.pop3.php
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\class.smtp.php --> 200.195.197.138 /sgprevi/mail class.smtp.php
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\codeworxtech.html --> 200.195.197.138 /sgprevi/mail codeworxtech.html
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\LICENSE --> 200.195.197.138 /sgprevi/mail LICENSE
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\README --> 200.195.197.138 /sgprevi/mail README
+2008.11.27 15:04 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sgprevi\mail\WS_FTP.LOG --> 200.195.197.138 /sgprevi/mail WS_FTP.LOG
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\ChangeLog.txt --> 200.219.198.42 /carim_/mail ChangeLog.txt
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\class.phpmailer.php --> 200.219.198.42 /carim_/mail class.phpmailer.php
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\class.pop3.php --> 200.219.198.42 /carim_/mail class.pop3.php
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\class.smtp.php --> 200.219.198.42 /carim_/mail class.smtp.php
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\LICENSE --> 200.219.198.42 /carim_/mail LICENSE
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\README --> 200.219.198.42 /carim_/mail README
+2010.02.23 12:38 B C:\Arquivos de programas\Apache Group\Apache2\htdocs\html\sistemas_corrigir\carim_\mail\WS_FTP.LOG --> 200.219.198.42 /carim_/mail WS_FTP.LOG
