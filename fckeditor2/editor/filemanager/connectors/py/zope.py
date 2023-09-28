@@ -68,14 +68,10 @@ class FCKeditorConnectorZope(FCKeditorConnector):
 		self.context.REQUEST.RESPONSE.setHeader(key, value)
 
 	def getFolders(self, resourceType, currentFolder):
-		# Open the folders node
-		s = ""
-		s += """<Folders>"""
+		s = "" + """<Folders>"""
 		zopeFolder = self.findZopeFolder(resourceType, currentFolder)
-		for (name, o) in zopeFolder.objectItems(["Folder"]):
-			s += """<Folder name="%s" />""" % (
-					convertToXmlAttribute(name)
-					)
+		for name, o in zopeFolder.objectItems(["Folder"]):
+			s += f"""<Folder name="{convertToXmlAttribute(name)}" />"""
 		# Close the folders node
 		s += """</Folders>"""
 		return s
@@ -83,19 +79,13 @@ class FCKeditorConnectorZope(FCKeditorConnector):
 	def getZopeFoldersAndFiles(self, resourceType, currentFolder):
 		folders = self.getZopeFolders(resourceType, currentFolder)
 		files = self.getZopeFiles(resourceType, currentFolder)
-		s = folders + files
-		return s
+		return folders + files
 
 	def getZopeFiles(self, resourceType, currentFolder):
-		# Open the files node
-		s = ""
-		s += """<Files>"""
+		s = "" + """<Files>"""
 		zopeFolder = self.findZopeFolder(resourceType, currentFolder)
-		for (name, o) in zopeFolder.objectItems(["File","Image"]):
-			s += """<File name="%s" size="%s" />""" % (
-					convertToXmlAttribute(name),
-					((o.get_size() / 1024) + 1)
-					)
+		for name, o in zopeFolder.objectItems(["File","Image"]):
+			s += f"""<File name="{convertToXmlAttribute(name)}" size="{o.get_size() / 1024 + 1}" />"""
 		# Close the files node
 		s += """</Files>"""
 		return s
@@ -135,10 +125,7 @@ class FCKeditorConnectorZope(FCKeditorConnector):
 		fileName = self.getFileName(file.filename)
 		fileNameOnly = self.removeExtension(fileName)
 		fileExtension = self.getExtension(fileName).lower()
-		if (count):
-			nid = "%s.%s.%s" % (fileNameOnly, count, fileExtension)
-		else:
-			nid = fileName
+		nid = f"{fileNameOnly}.{count}.{fileExtension}" if count else fileName
 		title = nid
 		try:
 			zopeFolder.manage_addProduct['OFSP'].manage_addFile(

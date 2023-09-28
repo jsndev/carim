@@ -39,10 +39,7 @@ class FCKeditorConnectorBase( object ):
 		"Constructor: Here you should parse request fields, initialize variables, etc."
 		self.request = FCKeditorRequest(environ) # Parse request
 		self.headers = []						# Clean Headers
-		if environ:
-			self.environ = environ
-		else:
-			self.environ = os.environ
+		self.environ = environ if environ else os.environ
 
 	# local functions
 
@@ -84,7 +81,4 @@ class FCKeditorRequest(object):
 			field = self.get_request[key]
 		else:
 			return default
-		if hasattr(field,"filename") and field.filename: #file upload, do not convert return value
-			return field
-		else:
-			return field.value
+		return field if hasattr(field,"filename") and field.filename else field.value

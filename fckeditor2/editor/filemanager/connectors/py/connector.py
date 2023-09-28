@@ -62,10 +62,10 @@ class FCKeditorConnector(	FCKeditorConnectorBase,
 				return self.sendError(102, "")
 
 		# Check if it is an allowed command
-		if ( not command in Config.ConfigAllowedCommands ):
+		if command not in Config.ConfigAllowedCommands:
 			return self.sendError( 1, 'The %s command isn\'t allowed' % command )
 
-		if ( not resourceType in Config.ConfigAllowedTypes  ):
+		if resourceType not in Config.ConfigAllowedTypes:
 			return self.sendError( 1, 'Invalid type specified' )
 
 		# Setup paths

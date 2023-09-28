@@ -47,9 +47,7 @@ class GetFoldersCommandMixin (object):
 		for someObject in os.listdir(serverPath):
 			someObjectPath = mapServerFolder(serverPath, someObject)
 			if os.path.isdir(someObjectPath):
-				s += """<Folder name="%s" />""" % (
-						convertToXmlAttribute(someObject)
-						)
+				s += f"""<Folder name="{convertToXmlAttribute(someObject)}" />"""
 		s += """</Folders>""" # Close the folders node
 		return s
 
@@ -66,15 +64,12 @@ class GetFoldersAndFilesCommandMixin (object):
 		for someObject in os.listdir(serverPath):
 			someObjectPath = mapServerFolder(serverPath, someObject)
 			if os.path.isdir(someObjectPath):
-				folders += """<Folder name="%s" />""" % (
-						convertToXmlAttribute(someObject)
-						)
+				folders += f"""<Folder name="{convertToXmlAttribute(someObject)}" />"""
 			elif os.path.isfile(someObjectPath):
 				size = os.path.getsize(someObjectPath)
 				if size > 0:
 					size = round(size/1024)
-					if size < 1:
-						size = 1
+					size = max(size, 1)
 				files += """<File name="%s" size="%d" />""" % (
 						convertToXmlAttribute(someObject),
 						size

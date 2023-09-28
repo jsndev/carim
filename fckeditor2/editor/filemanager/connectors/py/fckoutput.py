@@ -61,7 +61,7 @@ class BaseHttpMixin(object):
 		self.setHeader('Pragma','no-cache')
 
 		# Set the response format.
-		self.setHeader( 'Content-Type', content_type + '; charset=utf-8' )
+		self.setHeader('Content-Type', f'{content_type}; charset=utf-8')
 		return
 
 class BaseXmlMixin(object):
@@ -71,15 +71,9 @@ class BaseXmlMixin(object):
 		# Create the XML document header
 		s =  """<?xml version="1.0" encoding="utf-8" ?>"""
 		# Create the main connector node
-		s += """<Connector command="%s" resourceType="%s">""" % (
-				command,
-				resourceType
-				)
+		s += f"""<Connector command="{command}" resourceType="{resourceType}">"""
 		# Add the current folder node
-		s += """<CurrentFolder path="%s" url="%s" />""" % (
-				convertToXmlAttribute(currentFolder),
-				convertToXmlAttribute(url),
-				)
+		s += f"""<CurrentFolder path="{convertToXmlAttribute(currentFolder)}" url="{convertToXmlAttribute(url)}" />"""
 		return s
 
 	def createXmlFooter(self):
@@ -96,9 +90,9 @@ class BaseXmlMixin(object):
 
 	def sendErrorNode(self, number, text):
 		if number != 1:
-			return """<Error number="%s" />""" % (number)
+			return f"""<Error number="{number}" />"""
 		else:
-			return """<Error number="%s" text="%s" />""" % (number, convertToXmlAttribute(text))
+			return f"""<Error number="{number}" text="{convertToXmlAttribute(text)}" />"""
 
 class BaseHtmlMixin(object):
 	def sendUploadResults( self, errorNo = 0, fileUrl = '', fileName = '', customMsg = '' ):
