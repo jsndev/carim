@@ -32,13 +32,11 @@ import config as Config
 
 def removeExtension(fileName):
 	index = fileName.rindex(".")
-	newFileName = fileName[0:index]
-	return newFileName
+	return fileName[:index]
 
 def getExtension(fileName):
 	index = fileName.rindex(".") + 1
-	fileExtension = fileName[index:]
-	return fileExtension
+	return fileName[index:]
 
 def removeFromStart(string, char):
 	return string.lstrip(char)
